@@ -25,3 +25,13 @@ A koronavírus ugyanolyan rossz hatással volt hazánk turizmusára is mint a t�
 
 ## 2. Jelenlegi helyzet
 
+A Balaton egyre keresettebb nyaralási helyszín a belföldi valamint a külföldi turisták számára.
+Ez a növekedés azt eredményezi, hogy az utóbbi években a panziónkban is megugrott az ide látogató vendégek száma.
+A gyors növekedés viszont megnöveli az adminisztrációs munkát amit eddig papíron oldottunk meg.
+Dolgozóinknak egy vendégről több adatott is rögziteni kell például:
+
+* Fel kell vennünk a vendég nevét
+* Rögzitenünk kell a telefonszámát és email cimét
+* Tárolnunk kell a szobával kapcsolatos adatokat(Szobaszámát, Szoba típusa(1,2 vagy 3 ágyas), Szoba kivételének és elhagyásának dátuma) illetve a fizetendő összeget.
+
+Ezen adatok adminisztrálása kis vendégszám esetén kivitelezhető a hagyományos papír ceruza módszerrel de nagy létszámnál ez már lehetetlen.
