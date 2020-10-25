@@ -19,3 +19,8 @@ leghatékonyabb lekódolását. Erről bővebben a Fejlesztő eszközök fejezet
 sokkal gyorsabb, egyszerűbb és biztonságosabb lesz az új rendszer a régihez képest.
 
 ## 2. A rendszer célja
+A rendszer célja, hogy a panzió elavult adminisztrációs módszerét felváltsa ez a 21. századi, adatbázissal 
+rendelkező alkalmazás amivel a panzió adminisztrációs munkája gyorsabb, egyszerűbb és biztonságosabb lesz. 
+A programot használó dolgozóknak nagyon sok ideje fel fog szabadulni a program gyorsasága miatt, így foglalkozhat 
+más teendőkkel is akár, vagy több vendéget is tud kevesebb idő alatt adminisztrálni.
+
