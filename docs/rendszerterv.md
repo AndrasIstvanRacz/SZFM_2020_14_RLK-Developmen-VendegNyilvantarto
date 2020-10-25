@@ -17,3 +17,5 @@ lesz, hogy a panzió dolgozói kevés idő ráfordítás után is képesek legye
 használni azt. Ezért a tervezettek szerint olyan programozási nyelvet használunk ami megkönnyíti ennek a szoftvernek a 
 leghatékonyabb lekódolását. Erről bővebben a Fejlesztő eszközök fejezetben lesz majd szó. A digitalizálás hatására 
 sokkal gyorsabb, egyszerűbb és biztonságosabb lesz az új rendszer a régihez képest.
+
+## 2. A rendszer célja
