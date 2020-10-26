@@ -81,3 +81,11 @@ A szoftverben biztonsági funkciók implementálását nem terveztük.
 ### 11.3. Adatbázis terv
 
 Az alkalmazásunk egy MySQL alapú adatbázist fog kezelni. Ez az adatbázis egy táblából, a Vendég táblából fog állni. Ez a tábla tartalmazni fogja a vendégek nevét, telefonszámát, email címét, a szoba kivételének dátumát, a szoba elhagyasának dátumát, a szoba típusát(1, 2 vagy 3 ágyas) illetve a vendég által fizetendő összeget.
+
+### 11.4. Logikai adatmodell
+
+A szoftver három táblát kezel, két nagyobbat és egy kisebbet. Az első nagy tábla tartalmazza a panzióban megszáló vendégekkel kapcsolatos adatokat, név, telefonszám, email, hogy melyik szobát, mettől, meddig vették ki, menyit fizetek és melyik dolgozó fogadta őket. Itt még található egy automatikusan generált id is ami az elsődleges kulcsot képzi. A második nagyobban találhatóak az alkalmazotak neve, címe és elérhetőséguk illetve egy felhasználónév ami elsődleges kulcsként funkciónál továbbá ezzel tudnak bejelentkezni a szoftverbe. A harmadik kisebb tábla az alaklmazotakat tartalmazó táblát bővíti, ebbe megtalalhatjuk minden dolgozó felhasználónevét a vele párba állított jelszóval, ami a bejeletkezéshez való azonosításra szolgál. Továbbá itt szerepel az adott dolgozó jogoultsági szintje is. 
+<p align="center">
+    <img height="130%" src="pics/ERD.jpg">
+    <p align="center" style="font-size:80%; margin-top: -1.5em;">A kép látható az adatbázis modell a kapcsolatokkal.</p>
+</p>
