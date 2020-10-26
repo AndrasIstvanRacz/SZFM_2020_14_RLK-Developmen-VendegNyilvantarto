@@ -12,3 +12,11 @@ Az üzletben résztvevő entitások:
 ## 6. Követelmények
 
 ### 6.1.Funkcionális követelmények
+
+- Könnyen és egyszerűen kezelhető rendszer.
+- Letisztult átlátható adatbázis kezelés.
+- Egyszerű adatbázis lekérdezések megvalósítása.
+- Könnyű egyszerű adatfelvétel és módosítás.
+- Megkönnyített számla kiállítása.
+- Biztonságos adatkezelés.
+- Beléptető rendszer kiépítése.
