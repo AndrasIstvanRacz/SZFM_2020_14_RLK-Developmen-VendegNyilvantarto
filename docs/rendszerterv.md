@@ -93,3 +93,13 @@ esetdiagramokat (use case), az adatbázis tervezésnél az adatbázis diagramot,
 tervezésnél az
 osztálydiagramot és objektumdiagramot valamint a szekvenciadiagramot, aktivitásdiagramot
 használhatjuk.
+
+### 12.1. Perzisztencia-osztályok 
+
+A perzisztencia megvalósításáért a Hibernate objektum-relációs leképezést
+megvalósító programkönyvtár felel.
+
+
+Perzisztencia osztályok:
+- DBUtils
+- HibernateUtils
