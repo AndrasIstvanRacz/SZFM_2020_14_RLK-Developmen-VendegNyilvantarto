@@ -46,4 +46,6 @@ Mindhármuk kiveszi a részét a munka minden egyes fázisából és részéből
 | Ladik Balázs       | Szoftverfejlesztő |
 | Kosztya Zoltán     | Szoftverfejlesztő |
 
+## 4. Ütemterv
+
 
