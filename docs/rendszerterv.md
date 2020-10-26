@@ -47,3 +47,37 @@ A felhasználói gépeknek el kell érniük az adatbázis szerverként üzemelő
 ## 10. Fejlesztő eszközök
 
 A projektet Java 14-be készítetük aminek projektmenedzsmentjéhez az Apache Maven használtuk. A grafikus felületet JavaFX 14-be készítettük. A szoftver által használt adatbázis MySQL alapú relációs adatbázis.
+
+## 11. Architekturális terv 
+
+A rendszert felépítő alrendszerek (szoftver komponensek) lényegében a Java, Sql, Mavan használata Java FX keretén belül. Az alrendszerek meghatározása után a tulajdonságaikat kiaknázva vezérlési, valamint kommunikációs kapcsolatokat lehet létrehozni ezáltal. Ezeknek a komponenseknek és a köztük fennáló kapcsolatok alkotják a szoftver architektúráját. A rendszer szerepe az érdekelt szereplő kommunikációjának lehetővé tétele, a korai fejlesztési fázisok döntéseinek támogatása. Emelett fontos az újrafelhasználhatóság elősegítése. Ennek meghatározásában nagy szerepet játszik a környezet, a fejlesztők céljai és stratégiája által befolyásolt követelmények. De mint minden tervnek ennek is megvannak a meghatározó pillérjei:
+
+* Architektúrát meghatározó fejlesztő szervezet szerkezetéből
+* Szereplők
+* Követelmények
+* Technológiai környezet
+* A tervező tapasztalata
+  
+Architektúra elemek:
+
+* Architektúrális minta
+   * típus elemek és kapcsolatok, kényszerek
+   * pl. kliens-szerver minta
+*  Referencia modell
+   * standard funkcionális felosztás és adatfolyam megoldások
+   * pl. adatbázis kezelő rendszer
+* Referencia architektúra
+   * referencia modell leképezése szoftver elemekre
+   * pl. ISO OSI architektúra
+
+### 11.1. Rendszer bővíthetősége  
+
+A rendszer teljesen objektum orientált szemlélet szerint kerül implementálásra vagyis a rendszer egy bizonyos szinten alkalmas lesz a bővítésre.
+
+### 11.2. Biztonsági funkciók 
+
+A szoftverben biztonsági funkciók implementálását nem terveztük.
+
+### 11.3. Adatbázis terv
+
+Az alkalmazásunk egy MySQL alapú adatbázist fog kezelni. Ez az adatbázis egy táblából, a Vendég táblából fog állni. Ez a tábla tartalmazni fogja a vendégek nevét, telefonszámát, email címét, a szoba kivételének dátumát, a szoba elhagyasának dátumát, a szoba típusát(1, 2 vagy 3 ágyas) illetve a vendég által fizetendő összeget.
