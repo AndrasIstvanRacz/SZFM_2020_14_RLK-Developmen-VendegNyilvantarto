@@ -44,3 +44,7 @@ Ezek a 'funkciók' nem mások, mint:
  - A vendégek kijelentkezésének időpontja.
  - Az igényelt szoba típusa.
  - Számla kiállítása.
+
+### 7.1. Bejelentkeztető rendszer
+
+A bejelentkeztető rendszer arra fog szolgálni, hogy a vendégek adatait diszkréten és biztonságosan tudjuk tárolni. A program inditása után mindig fog kérni egy felhasználónevet és egy jelszót annak a kiküszöbölése miatt, hogy illetéktelenek ne tudjanak hozzáférni a panzió vendégeinek az adataihoz.
