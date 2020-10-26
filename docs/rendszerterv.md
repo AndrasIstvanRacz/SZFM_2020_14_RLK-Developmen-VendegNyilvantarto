@@ -66,3 +66,17 @@ Ez a rész a szerkesztés illetve a hozzáadás gombok használatával jeleníth
 A számla kiállítása opció arra fog szolgálni, hogy megkönnyítsük az aktuális munkaidejét töltő munkatársunk munkáját azzal, hogy a rendszer automatikusan legenerálja a számlát és nem kell a régi elavult módszerekhez ragaszkodni amikor is még papíron kellet kitölteni a számlát. A rendszer úgy van megtervezve, hogy az adatbázisból automatikusan kiveszi az aktuális vendég adatait és azt jeleníti meg a számlán.
 
 ## 8. Rendszerszereplők  
+
+A rendszerben két féle entitás csoportot különböztetünk meg.
+
+
+A két csoport:
+- Személyzet csoportja
+- Vendégek csoportja
+
+A programot a személyzet csoportja fogja használni viszont a személyzet csoporton belül megkülönböztetünk két külön jogosultsági körrel rendelkező csoportot. Az egyik ilyen csoport az adminisztrátori jogokkal rendelkező a másik a felhasználói jogokkal rendelkező. Erre azért volt szükség, hogy biztonságosan tudjuk kezelni a vendégek személyes adatait. Viszont attól, hogy a személyzet csoportot megkülönböztetjük jogosultságuk alapján attól még mindig egyfajta szolgáltatást
+nyújtanak a vendégek csoportjának.
+
+A személyzet csoportján belül az adminisztrátori jogokkal rendelkezőknek sokkal több joga lesz mint a felhasználói jogokkal rendelkezőknek. Viszont ha azt nézzük a vendégek nem is használhatják
+a programot vagyis a felhasználói jogokkal rendelkezők is több joggal rendelkeznek mint a vendégek. Ezek mellett a felhasználói jogokkal rendelkező munkatársaknak a feladatai közé tartozik az is, hogy a kapcsolatot fenntartják a vendégekkel.
+Valamint a feladatuk kiterjed a törzsvendégek értesítésére szezonális kedvezmények esetén.
