@@ -27,3 +27,4 @@ Az üzletben résztvevő entitások:
 - Látás károsultak számára is megfelelő színvilág és betűméretek használata.
 - Clean code-nak való megfelelés.
 
+## 7. Funkcionális terv  
