@@ -60,4 +60,9 @@ A program elkészítésének fő mérföldkövei:
 * A rendszerterv megírása
 * A program prototípus elkészítése
 
+### 4.3 Második felvonás
+* A rendszer tesztjeinek felállítása
+* A program adatbázisának elkészítése
+* A program tesztelése a minimális funkciókkal
+
 
