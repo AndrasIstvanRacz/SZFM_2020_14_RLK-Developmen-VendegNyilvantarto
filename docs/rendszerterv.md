@@ -64,3 +64,5 @@ Ez a rész a szerkesztés illetve a hozzáadás gombok használatával jeleníth
 ### 7.5. Számla kiállítása
 
 A számla kiállítása opció arra fog szolgálni, hogy megkönnyítsük az aktuális munkaidejét töltő munkatársunk munkáját azzal, hogy a rendszer automatikusan legenerálja a számlát és nem kell a régi elavult módszerekhez ragaszkodni amikor is még papíron kellet kitölteni a számlát. A rendszer úgy van megtervezve, hogy az adatbázisból automatikusan kiveszi az aktuális vendég adatait és azt jeleníti meg a számlán.
+
+## 8. Rendszerszereplők  
