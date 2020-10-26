@@ -80,3 +80,16 @@ nyújtanak a vendégek csoportjának.
 A személyzet csoportján belül az adminisztrátori jogokkal rendelkezőknek sokkal több joga lesz mint a felhasználói jogokkal rendelkezőknek. Viszont ha azt nézzük a vendégek nem is használhatják
 a programot vagyis a felhasználói jogokkal rendelkezők is több joggal rendelkeznek mint a vendégek. Ezek mellett a felhasználói jogokkal rendelkező munkatársaknak a feladatai közé tartozik az is, hogy a kapcsolatot fenntartják a vendégekkel.
 Valamint a feladatuk kiterjed a törzsvendégek értesítésére szezonális kedvezmények esetén.
+
+## 12. Implementációs terv
+
+A tervezési folyamat során célszerű vagy mondhatjuk úgy, hogy ajánlott az általános logikai felépítést mindig valamilyen 
+grafikus reprezentációval
+modellezni, mert az emberi agy vizualizált objektumokkal könnyebben dolgozik.
+Az UML (=Unified Modeling Language), modellező nyelv segítségével a specifikációt és 
+a tervezést is grafikus
+formában, diagramok segítségével tudjuk dokumentálni. A követelményspecifikációban a használati
+esetdiagramokat (use case), az adatbázis tervezésnél az adatbázis diagramot, az OOP 
+tervezésnél az
+osztálydiagramot és objektumdiagramot valamint a szekvenciadiagramot, aktivitásdiagramot
+használhatjuk.
