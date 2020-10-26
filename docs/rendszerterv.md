@@ -20,3 +20,5 @@ Az üzletben résztvevő entitások:
 - Megkönnyített számla kiállítása.
 - Biztonságos adatkezelés.
 - Beléptető rendszer kiépítése.
+
+### 6.2. Nem funkcionális követelmények
