@@ -10,3 +10,5 @@ Az üzletben résztvevő entitások:
 - A panzióba még nem regisztrált, de majd regisztráló vendégek
 
 ## 6. Követelmények
+
+### 6.1.Funkcionális követelmények
