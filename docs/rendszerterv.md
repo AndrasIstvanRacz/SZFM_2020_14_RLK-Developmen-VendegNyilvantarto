@@ -28,3 +28,19 @@ Az üzletben résztvevő entitások:
 - Clean code-nak való megfelelés.
 
 ## 7. Funkcionális terv  
+
+A program célja a vendégek regisztrációjának a felgyorsítása valamint a panzióban dolgozó személyzet
+munkájának megkönnyebbítése. Valamint a jelenlegi analóg adminisztrációs módszer teljes lecserélése
+digitális formára. A korábbi módszer minden 'funkciójának' átültetése számítógépes környezetbe.
+
+Ezek a 'funkciók' nem mások, mint:
+
+ - Bejelentkeztető rendszer.
+ - Adminisztrátori felület.
+ - Dolgozói felület.
+ - Hozzáadás/Szerkesztés opciók.
+ - A panzió vendégeinek nyílvántartása.
+ - A kiadott szobák feljegyzése.
+ - A vendégek kijelentkezésének időpontja.
+ - Az igényelt szoba típusa.
+ - Számla kiállítása.
