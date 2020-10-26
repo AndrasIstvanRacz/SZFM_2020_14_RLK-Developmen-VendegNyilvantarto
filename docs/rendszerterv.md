@@ -48,3 +48,7 @@ Ezek a 'funkciók' nem mások, mint:
 ### 7.1. Bejelentkeztető rendszer
 
 A bejelentkeztető rendszer arra fog szolgálni, hogy a vendégek adatait diszkréten és biztonságosan tudjuk tárolni. A program inditása után mindig fog kérni egy felhasználónevet és egy jelszót annak a kiküszöbölése miatt, hogy illetéktelenek ne tudjanak hozzáférni a panzió vendégeinek az adataihoz.
+
+### 7.2. Adminisztrátori felület
+
+A bejelentkezés után ha az adott felhasználó rendelkezik adminisztrátori jogokkal, akkor fog megjelenni neki ez a felület. A felület tartalmaz egy Dolgozó menüpontot amin belül a dolgozók adatai láthatóak, szerkeszthetőek valamint hozzá is tudunk új dolgozót adni az adatbázishoz. A másik menüpont a vendég ahol hasonlóképpen a vendégek listáját fogjuk látni ezeket is tudjuk szerkeszteni törölni valamint új vendéget hozzáadni. A legfontosabb különbség az hogy itt lehetőség adódik arra is hogy számlát állítsunk ki a vendégek részére.
