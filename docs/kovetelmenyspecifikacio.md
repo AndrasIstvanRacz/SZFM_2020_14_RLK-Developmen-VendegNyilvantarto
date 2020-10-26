@@ -30,8 +30,12 @@ Ez a növekedés azt eredményezi, hogy az utóbbi években a panziónkban is me
 A gyors növekedés viszont megnöveli az adminisztrációs munkát amit eddig papíron oldottunk meg.
 Dolgozóinknak egy vendégről több adatott is rögziteni kell például:
 
+* Két különböző hatáskörű dolgozónk van: a recepciós(dolgozó) illetve a főnök(admin)
+* A főnök  nagyobb hatáskörrel rendelkezik és a többi dolgozó adatainak kezelése is az ő dolga
+* A recepciós csupán felvehet vendéget, vagy számlát állíthat ki, a többi a főnök dolga
 * Fel kell vennünk a vendég nevét
 * Rögzitenünk kell a telefonszámát és email cimét
-* Tárolnunk kell a szobával kapcsolatos adatokat(Szobaszámát, Szoba típusa(1,2 vagy 3 ágyas), Szoba kivételének és elhagyásának dátuma) illetve a fizetendő összeget.
+* Tárolnunk kell a szobával kapcsolatos adatokat(Szobaszámát, Szoba típusa(1,2 vagy 3 ágyas), 
+Szoba kivételének és elhagyásának dátuma) illetve a fizetendő összeget.
 
 Ezen adatok adminisztrálása kis vendégszám esetén kivitelezhető a hagyományos papír ceruza módszerrel de nagy létszámnál ez már lehetetlen.
