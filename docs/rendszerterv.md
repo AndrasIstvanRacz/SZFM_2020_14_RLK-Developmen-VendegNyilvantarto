@@ -22,3 +22,7 @@ Az üzletben résztvevő entitások:
 - Beléptető rendszer kiépítése.
 
 ### 6.2. Nem funkcionális követelmények
+
+- Letisztult esztétikus felhasználói felület.
+- Látás károsultak számára is megfelelő színvilág és betűméretek használata.
+- Clean code-nak való megfelelés.
