@@ -31,7 +31,7 @@ A második, Vendég menüpontot láthatjuk a második ábrán. Itt hasonló funk
 </p>
 
 ### 6.3. Dolgozói felület 
-Ezt a fületet azok a dolgozók látják amelyek nem rendelkeznek adminisztrátori jogosultsággal. Dolgozó férhet hozzá a dolgozók adataihoz, nem szerkeszthetik nem módosithatnka azon. Számukra csupán a vendég adattábla áll rendelkezésükre és ennek manipulálása is csak limitált mértékben. Egy dolgozó láthatja a vendégek adatait, kereshet az adattáblában és hozzáadhat új adatot de nem módosihatja és törölheti azokat. Továbba képesek még számlát kiálítani barmely vendég számára. (Az itt található funkciók a 6.2. alfejezetben leírt módon müködnek)
+Ezt a fületet azok a dolgozók látják amelyek nem rendelkeznek adminisztrátori jogosultsággal. Dolgozó férhet hozzá a dolgozók adataihoz, nem szerkeszthetik nem módosithatnka azon. Számukra csupán a vendég adattábla áll rendelkezésükre és ennek manipulálása is csak limitált mértékben. Egy dolgozó láthatja a vendégek adatait, kereshet az adattáblában és hozzáadhat új adatot de nem módosihatja és törölheti azokat. Továbba képesek még számlát kiálítani barmely vendég számára. [(Az itt található funkciók a 6.2. alfejezetben leírt módon müködnek)](https://github.com/RaczDevelopment/SZFM_2020_14_RLK-Developmen-VendegNyilvantarto/blob/master/docs/funkspec.md#62-adminisztr%C3%A1tori-fel%C3%BClet)
 <p align="center">
     <img width="100%" height="100%" src="DolgozoKepernyoterv.png">
     <p align="center" style="font-size:80%;">A kép csak szemléltetés céljából készült, NEM a végleges kinézet a grafikus felületnek.</p>
