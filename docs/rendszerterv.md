@@ -36,3 +36,8 @@ hardverhiba esetén csak az egyik része károsodjon a rendszernek. A program co
 Java programozási nyelven terveztük el. A projekthez továbbá felhasználtuk a Maven nevű projekt menedzsment 
 eszköztárat is.
 
+* 3.2. Projektmunkások és felelősségeik
+A projektet készítő három személy teljesen egyenjogú szerepkörökkel rendelkezik. 
+Mindhármuk kiveszi a részét a munka minden egyes fázisából és részéből, egyenrangú fejlesztői a programnak.
+
+
