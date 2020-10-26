@@ -57,6 +57,10 @@ A bejelentkezés után ha az adott felhasználó rendelkezik adminisztrátori jo
 
 Ez a felület azon dolgozók részére lesz látható akik nem rendelkeznek adminisztrátori jogokkal. Ezen a felüleleten az alkalmazott hozzá tud adni az adatbázishoz új vendégeket valamint kitudja választani a listából a vendégeket és számlát tud kiállítani részükre.
 
-### 7.4 Hozzáadás/Szerkesztés opciók
+### 7.4. Hozzáadás/Szerkesztés opciók
 
 Ez a rész a szerkesztés illetve a hozzáadás gombok használatával jeleníthető meg a program használata során. Ha rákattintunk ezek küzül valamelyikre akkor utána fogunk látni pár mezőt ahova meg kell adni az adott vendég adatait akit hozzá szeretnénk adni az adatbázishoz. Ezek után egyértelműen a mentés gombra kell majd nyomni, hogy a megadott adatok bekerüljenek a rendszerbe. Viszont ha esetleg az adatok beírása után mégis meggondolnánk magunkat és nem szeretnénk hozzáadni a vendéged az adatbázishoz akkor lehetőségünk adódik arra hogy az elvetés gomb megnyomásával visszatérjünk az előző menüpontba.
+
+### 7.5. Számla kiállítása
+
+A számla kiállítása opció arra fog szolgálni, hogy megkönnyítsük az aktuális munkaidejét töltő munkatársunk munkáját azzal, hogy a rendszer automatikusan legenerálja a számlát és nem kell a régi elavult módszerekhez ragaszkodni amikor is még papíron kellet kitölteni a számlát. A rendszer úgy van megtervezve, hogy az adatbázisból automatikusan kiveszi az aktuális vendég adatait és azt jeleníti meg a számlán.
