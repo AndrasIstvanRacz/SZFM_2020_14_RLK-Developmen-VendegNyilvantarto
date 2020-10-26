@@ -34,3 +34,7 @@ Számlakiálításkor ki kell választanunk egy sort a táblából akinek a nev�
     <img height="100%" src="pics/MakeABill.jpg">
     <p align="center" style="font-size:80%; margin-top: -1.5em;">A kép szemlélteti a számlakiálítás lefutásának menetét.</p>
 </p>
+
+### 9.6. Hardver és hálózati topológia
+
+A felhasználói gépeknek el kell érniük az adatbázis szerverként üzemelő központi gépet, mivel a dolgozók a szoftveren keresztül az itt tárolt adatokat fogják elérni. A cél platformunk a panzió tulajdonában lévő számítógépek melyeknek hardvere 8 GB DDR4 és RAM-ból, egy Intel Core i7-9750H 2.60GHz típusú processzorból és egy NVIDIA GeForce GTX 1660ti típusú videokártyából állnak, de ennek ellenére a szoftverunket úgy terveztük, hogy bármely 2000 után piacra dobot számítógépen el tudjon futni. Ezeken Windows 10 operációs renszer fut. A programunk viszont fut linux alapu operációs rendszerek alatt is. 
