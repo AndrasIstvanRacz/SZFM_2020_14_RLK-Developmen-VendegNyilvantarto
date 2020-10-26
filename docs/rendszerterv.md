@@ -9,4 +9,4 @@ Az üzletben résztvevő entitások:
 - A panzió szolgáltatásait igénybe vett regisztrált vendégek  
 - A panzióba még nem regisztrált, de majd regisztráló vendégek
 
-
+## 6. Követelmények
