@@ -48,4 +48,16 @@ Mindhármuk kiveszi a részét a munka minden egyes fázisából és részéből
 
 ## 4. Ütemterv
 
+### 4.1 Mérföldkövek
+A program elkészítésének fő mérföldkövei:
+
+### 4.2 Első felvonás
+* A git project használatának elkezdése
+* A git repó elkészítése
+* A tagok git-re való regisztrációja illetve a projekthez felvétele
+* A követelményspecifikáció megírása
+* A funckionális specifikáció megírása
+* A rendszerterv megírása
+* A program prototípus elkészítése
+
 
