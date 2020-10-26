@@ -13,3 +13,21 @@ A jelenlegi rendszerünk, ami papíron és ceruzán alapuló nyilvántartó rend
  * A GDPR előírásainak megfelelni.
 
  ## 4. Jelenlegi üzleti folyamatok modellje
+
+ A papír alapú rendszert egy relációs adatbázis váltja, aminek a segítségével a vendégek adatai tökéletesen tárolhatóak és könnyen lekérdezhetőek különböző szűrök segítségével. A program indítása után egy bejelentkező oldal fog megjelenni ahol meg kell adni a felhasználónevét és a jelszavát a munkatársnak majd a bejelentkezés gombra nyomva ellenőrzésre kerül, hogy valós adatokat adott-e meg. Ha valós adatok lettek megadva, akkor a felhasználó jogosultságától függően vagy az adminisztrátori felülelet vagy a dolgozói felülelet fogja fogadni a bejelentkezést megkisérlő személyt.
+
+ - Az adminisztrátori felület esetén az alábbi menüpontok lesznek láthatóak:
+   
+    * Dolgozó
+    * Vendég
+
+Ha az adminisztrátori jogokkal rendelkező felhasználó a dolgozó menüpontot választja, akkor először is látni fogja az aktuális munkásokat és ezeknek a listáját tudja szerkeszteni, törölni valamint hozzá is tud adni új alkalmazottat.
+
+A másik választási lehetőség a vendégek menüpont ami teljes egészében megegyezik a dolgozók felületével csak annyiban tér el, hogy egy új gomb is helyet kap aminek a neve a számla létrehozása. Ennek a gombnak az lesz a lényeges feladata, hogy kiállítson egy számlát egy adott vendégnek.
+
+- Az dolgozói felület esetén az alábbi funkciókat lehetséges használni:
+   
+    * Vendég hozzáadása
+    * Számla létrehozása
+
+Akik nem rendelkeznek adminisztrátori jogokkal azoknak a bejelentkezés után ez a felület fog megjelenni. Itt lehetőség adódik új vendég hozzáadására valamint számla kiállítására. A hozzáadás gomb használata esetén bizonyos mezőket ki kell majd tölteni az aktuális vendég adataival kapcsolatban és csak ez után lehetséges majd a mentés gombra kattintani.
