@@ -40,4 +40,10 @@ eszköztárat is.
 A projektet készítő három személy teljesen egyenjogú szerepkörökkel rendelkezik. 
 Mindhármuk kiveszi a részét a munka minden egyes fázisából és részéből, egyenrangú fejlesztői a programnak.
 
+| Név                | Szerepkör         |
+|--------------------|-------------------|
+| Rácz András István | Szoftverfejlesztő |
+| Ladik Balázs       | Szoftverfejlesztő |
+| Kosztya Zoltán     | Szoftverfejlesztő |
+
 
