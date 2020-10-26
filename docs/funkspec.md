@@ -11,3 +11,5 @@ A jelenlegi rendszerünk, ami papíron és ceruzán alapuló nyilvántartó rend
  * A legmodernebb biztonsági előírásoknak megfelelni. Ennek ellenére viszont vannak olyan alap biztonsági funkciók amit lehetetlen nem figyelembe venni ilyen például az is, hogy csak azok férjenek hozzá a vendégek adataihoz akinek engedélyezett. Ezt úgy próbáljuk megoldani, hogy a programba beépítünk egy beléptető rendszert aminek a segítségével megtudjuk akadályozni az illetéktelenek behatolását a rendszerbe.
  
  * A GDPR előírásainak megfelelni.
+
+ ## 4. Jelenlegi üzleti folyamatok modellje
