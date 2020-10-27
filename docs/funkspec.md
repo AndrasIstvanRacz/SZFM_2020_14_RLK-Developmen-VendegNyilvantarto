@@ -30,6 +30,10 @@ A programmal azt is szeretnénk elérhetővé tenni, hogy kettő felhasználói 
 Ennek azért van jelentősége, mert a dolgozó csak a vendégek, míg az admin a dolgozók adatait is módosíthatja.
 Tehát mind a kettő táblában képes adatot felvenni, keresni, szerkeszteni vagy törölni.
 
+* A rendszer dolgozói felhasználója:
+A a dolgozói felhasználó csupán három dolgot végezhet el a vendégek adataival.
+Új vendéget vehet fel, kereshet a vendégek között és képes számlát kiállítani.
+
 ## 3. Jelenlegi helyzet
 
 A jelenlegi rendszerünk, ami papíron és ceruzán alapuló nyilvántartó rendszer megérett arra, hogy egy modernebb egyszerűbb a huszonegyedik századhoz méltóra cseréljük. Valójában erre a döntésre azért is szántuk el magunkat, hogy a jelenlegi munkánkat megkönnyítsük. Melesleg így a későbbiekben képesek lehetünk tartani a konkurens panziókkal a versenyt és gyorsabban kiszolgálni a szolgáltatásainkat igénybevevő vendégeket. Természetesen az sem mellékes, hogy ennek az újításnak köszönhetően gyorsabban letudjuk kérdezni az adatbázisból azt, hogy egy bizonyos vendég mikor és mennyi időt töltött nálunk valamint, hogy mikor is hagyta el a panziót. Ezek a folyamatok eddig hosszú perceket vettek el a recepciós és a vendégek idejéből is. Ami sajnos a mai rohanó világban tarthatatlan. Így ha akarjuk ha nem kényszerből is muszáj megváltozni a panzió jelenlegi rendszerét. Viszont mivel a diszkréció és a biztonság is elég fontos szempont és eddig sajnos a papír ceruza alapu rendszer esetén sok volt a biztonsági rés, hogy bármilyen probléma bekövetkezzen ezért úgy szeretnénk kivitelezni a rendszert, hogy a recepciós az alkalmazás használata során ne kapjon jogosúltságot arra, hogy a vendégek adatait kénye kedvére tudja módosítani. Ennek a kritériumnak eleget téve úgy gondoltuk, hogy létrehozunk egy adminisztrátor jogosúltsággal rendelkező felhasználót az alkalmazásban aki képes arra, hogy az adatokat módosíthatja. Ezt a lépést azért tettük meg, hogy a vendégek adatai diszkréten legyen kezelve valamint a biztonság sem elhanyagolható abból a szempontból sem, hogy a számla kiállítása esetén a vendég valós adatai szerepeljenek ott.
