@@ -34,6 +34,11 @@ Dolgozóinknak egy vendégről több adatott is rögziteni kell például:
 * A recepciós csupán felvehet vendéget, vagy számlát állíthat ki, a többi a főnök dolga
 * Fel kell vennünk a vendég nevét
 * Rögzitenünk kell a telefonszámát és email cimét
+* Tárolnunk kell a szobával kapcsolatos adatokat(Szobaszámát, Szoba típusa(1,2 vagy 3 ágyas), 
+Szoba kivételének és elhagyásának dátuma) illetve a fizetendő összeget.
+
+Ezen adatok adminisztrálása kis vendégszám esetén kivitelezhető a hagyományos papír ceruza módszerrel 
+de nagy létszámnál ez már lehetetlen.
 
 ## 3. Vágyálom rendszer
 
