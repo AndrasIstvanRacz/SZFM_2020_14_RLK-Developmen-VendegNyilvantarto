@@ -29,6 +29,16 @@ magasabb beosztású személyeknek könnyebb dolga lesz a dolgozók adatainak ke
 
 ## 3. A projekt tervezete
 
+* 3.1. A rendszer felépítése
+Az adatbázis kapcsolathoz szükséges egy adatbázis connection osztály,
+amely létrehozza, fenntartja, és zárja az adatbáziskapcsolatot.
+A rendszer fő pontja így a központi gép, amelyiken az SQL fut, illetve ettől elkülönített gépen is futtatható 
+az SQL szerver amely az adatokat biztosítja. Javasoljuk a szerverek külön gépen futtatását, hogy egy esetleges 
+hardverhiba esetén csak az egyik része károsodjon a rendszernek. A program controller részének megvalósítását 
+Java programozási nyelven terveztük el. A projekthez továbbá felhasználtuk a Maven nevű projekt menedzsment 
+eszköztárat is.
+
+
 ## 5. Üzleti szereplők  
 
 Az elkészült programot az éppen munkaidejét töltő recepciós és adminisztrátor pozicióban alkalmazott felhasználó fogja használni. A panzió összes alkalmazotjának, akik ezen munkakörök valamelyikében dolgoznak megvan a végzettsége és a tudása ahhoz, hogy SZFM_2020_14_RLK-Development csapat által készített programot magabiztosan képes legyen használni.
