@@ -68,6 +68,12 @@ A program elkészítésének fő mérföldkövei:
 * A program adatbázisának elkészítése
 * A program tesztelése a minimális funkciókkal
 
+### 4.4 Végső munkálatok
+* A program biztonságának növelése, felkészítés a használatra
+* Az elkészült program bemutatása
+* A felhasználó visszajelzések beletervezése a projektbe
+* A kényelmi feature-ök fejlesztése
+
 
 ## 5. Üzleti szereplők  
 
