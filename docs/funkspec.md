@@ -12,6 +12,8 @@ Egy Balaton parti panzió nagy forgalommal jár, az emberek szívesebben jönnek
   Ilyen módon növelhetjük a hatékonyságunkat mivel egyszerre több vendéggel is foglalkozhatunk párhuzamosan. 
   Mivel a projekt kezdeti stádiumban van elsőnek a legfontosabb funkciók fejlesztése fog megtörténni, 
   majd a visszajelzések alapján priorizáljuk a további featureöket a felhasználói igények alapján.
+  
+## 2. Használati esetek
 
 ## 3. Jelenlegi helyzet
 
