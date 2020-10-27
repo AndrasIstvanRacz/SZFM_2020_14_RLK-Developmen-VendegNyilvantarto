@@ -33,6 +33,7 @@ Dolgozóinknak egy vendégről több adatott is rögziteni kell például:
 * A főnök  nagyobb hatáskörrel rendelkezik és a többi dolgozó adatainak kezelése is az ő dolga
 * A recepciós csupán felvehet vendéget, vagy számlát állíthat ki, a többi a főnök dolga
 * Fel kell vennünk a vendég nevét
+* Rögzitenünk kell a telefonszámát és email cimét
 
 ## 3. Vágyálom rendszer
 
