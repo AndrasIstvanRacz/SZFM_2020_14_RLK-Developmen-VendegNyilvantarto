@@ -17,6 +17,8 @@ Egy Balaton parti panzió nagy forgalommal jár, az emberek szívesebben jönnek
 
 A Követelmény specifikáció 'Követelménylista' című bekezdése alapján az egyes pontok kifejtésére kerül sor ebben a fejezetben.
 
+* Egy rendszer képes a dolgozok adatainak tárolására:
+A programmal lehetőséget szeretnénk nyújtani a panzióban dolgozó alkalmazottak nyilvántartására.
 
 ## 3. Jelenlegi helyzet
 
