@@ -63,6 +63,11 @@ A program elkészítésének fő mérföldkövei:
 * A program prototípus elkészítése
 * Demo bemutatása a programról
 
+### 4.3 Második felvonás
+* A rendszer tesztjeinek felállítása
+* A program adatbázisának elkészítése
+* A program tesztelése a minimális funkciókkal
+
 
 ## 5. Üzleti szereplők  
 
