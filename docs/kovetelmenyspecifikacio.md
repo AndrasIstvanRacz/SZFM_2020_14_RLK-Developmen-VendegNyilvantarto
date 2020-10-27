@@ -32,6 +32,7 @@ Dolgozóinknak egy vendégről több adatott is rögziteni kell például:
 * Két különböző hatáskörű dolgozónk van: a recepciós(dolgozó) illetve a főnök(admin)
 * A főnök  nagyobb hatáskörrel rendelkezik és a többi dolgozó adatainak kezelése is az ő dolga
 * A recepciós csupán felvehet vendéget, vagy számlát állíthat ki, a többi a főnök dolga
+* Fel kell vennünk a vendég nevét
 
 ## 3. Vágyálom rendszer
 
