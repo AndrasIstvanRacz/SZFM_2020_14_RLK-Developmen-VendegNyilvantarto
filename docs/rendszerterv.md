@@ -50,6 +50,9 @@ Mindhármuk kiveszi a részét a munka minden egyes fázisából és részéből
 
 ## 4. Ütemterv
 
+### 4.1 Mérföldkövek
+A program elkészítésének fő mérföldkövei:
+
 
 ## 5. Üzleti szereplők  
 
