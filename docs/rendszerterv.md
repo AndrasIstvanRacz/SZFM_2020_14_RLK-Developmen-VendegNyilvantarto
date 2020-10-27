@@ -19,6 +19,8 @@ használni azt. Ezért a tervezettek szerint olyan programozási nyelvet haszná
 leghatékonyabb lekódolását. Erről bővebben a Fejlesztő eszközök fejezetben lesz majd szó. A digitalizálás hatására 
 sokkal gyorsabb, egyszerűbb és biztonságosabb lesz az új rendszer a régihez képest.
 
+## 2. A rendszer célja
+
 ## 5. Üzleti szereplők  
 
 Az elkészült programot az éppen munkaidejét töltő recepciós és adminisztrátor pozicióban alkalmazott felhasználó fogja használni. A panzió összes alkalmazotjának, akik ezen munkakörök valamelyikében dolgoznak megvan a végzettsége és a tudása ahhoz, hogy SZFM_2020_14_RLK-Development csapat által készített programot magabiztosan képes legyen használni.
