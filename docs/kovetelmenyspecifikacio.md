@@ -30,6 +30,7 @@ A gyors növekedés viszont megnöveli az adminisztrációs munkát amit eddig p
 Dolgozóinknak egy vendégről több adatott is rögziteni kell például:
 
 * Két különböző hatáskörű dolgozónk van: a recepciós(dolgozó) illetve a főnök(admin)
+* A főnök  nagyobb hatáskörrel rendelkezik és a többi dolgozó adatainak kezelése is az ő dolga
 
 ## 3. Vágyálom rendszer
 
