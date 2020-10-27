@@ -27,6 +27,8 @@ A programot használó dolgozóknak nagyon sok ideje fel fog szabadulni a progra
 más teendőkkel is akár, vagy több vendéget is tud kevesebb idő alatt adminisztrálni. Illetve így a panzióban dolgozó
 magasabb beosztású személyeknek könnyebb dolga lesz a dolgozók adatainak kezelésével és nyílvántartásával.
 
+## 3. A projekt tervezete
+
 ## 5. Üzleti szereplők  
 
 Az elkészült programot az éppen munkaidejét töltő recepciós és adminisztrátor pozicióban alkalmazott felhasználó fogja használni. A panzió összes alkalmazotjának, akik ezen munkakörök valamelyikében dolgoznak megvan a végzettsége és a tudása ahhoz, hogy SZFM_2020_14_RLK-Development csapat által készített programot magabiztosan képes legyen használni.
