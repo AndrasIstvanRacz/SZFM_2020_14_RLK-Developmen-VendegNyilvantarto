@@ -2,6 +2,26 @@
 
 ## 1.Bevezetés
 
+A koronavírus ugyanolyan rossz hatással volt hazánk turizmusára is mint a többi Európai országéra.
+ A tavasszal országosan elrendelt karantént a Balaton környéki panziók is megérezték, mivel a tavalyi évhez képest
+ a forgalom jelentősen csökkent, ezzel nagy mértékben csökkentve a forgalmat.
+ Általánosságban véve tavasszal és nyáron egy Balaton parti panzió nagy forgalommal jár,
+ az emberek szívesen jönnek egy meghitt, családias hangulatú helyre nyaralni.
+ Viszont idén a karantén bevezetése után sajnos a tavaszi hónapokban a vendégeknek és nyaralni kívánóknak
+ nem volt lehetősége igénybe venni a szolgáltatásunkat.
+ Szerencsére mihelyt beköszöntött a nyár egyre több vendég választotta kikapcsolódásként a Balatont.
+ Ennek köszönhetően elgondolkodtunk azon, hogy valamilyen alternatív megoldást kéne kitalálni a vendégeink
+ adatainak a tárolására, mivel eddig ez úgy valósult meg, hogy erre a célra alkalmas füzetekben tároltuk az adatokat.
+ Napjainkban azonban, hogy versenyképesek tudjunk maradni nyitnunk kell a modern technologia felé.
+ Éppen ezért a vezetés engyhangúan úgy döntött, hogy alkalmazkodik az új követelményekhez,
+ és egy gyors és hatékony számítógépes rendszerre cseréli a hagyományos, papír alapú könyvelést.
+ Ehhez szükség lenne egy alkalmazásra amely akár több munkaállomáson is futhat de mégis egy és ugyan azon
+ adathalmazt éri el. Ehhez tudunk biztosítani egy központi gépet amelyhez a munkaálomásoknak hozzáférést
+ biztosítunk. Ilyen módon növelhetjük a hatékonyságunk mivel egyszerre több vendéggel is foglalkozhatunk
+ párhuzamosan. Mivel a döntés nem régen született meg ezért először a legfontosabb funkciók fejlesztése
+ fog megtörténni, majd a visszajelzések alapján priorizáljuk a további fejlesztéseket a felhasználói
+ igények alapján.
+
 ## 3. Vágyálom rendszer
 
 A vezetőség közös elhatározásra jutott azzal kapcsolatban, hogy a klasszikus papír, ceruza alapú adminisztrációs rendszer már nem elég hatékony. Ezért elkezdtünk gondolkodni, hogy mi lenne a legoptimálisabb megoldás. A gondolkodás közepette több ötlet is felvetésre került viszont az egyik ötlet kiemelkedően a legalkalmasabbnak tűnt mivel a vezetőség egydöntetűen tetszését nyilvánította azzal kapcsolatban, hogy egy alkalmazásra lenne szükség ami tárolja az adatokat. Az alkalmazással kapcsolatban a legfontosabb kritérium az, hogy képes legyen tárolni a jelenlegi helyzet pontban emlitett adatokat. Vendégek felvételéhez valamint az eltárolt adatokhoz elérést kel biztosítani a dolgozóink számára, hogy a vendégek adatait lássák és számlát tudjanak kiállítani. Valamint szeretnénk ha a rendszer úgy nézne ki, hogy ha lenne két különböző jogosultsággal bíró csoport az adminisztrátor jogú felhasználó és a dolgozó jogosultságú. A dolgozó jogosúltságú felhasználó képes legyen új vendég felvételére, vendégek közti keresésre valamint számla kiállítására. Ez azért fontos, mert a biztonságra való törekvés szempontjából úgy szeretnénk kialakítani a rendszert, hogy az adminisztrátor jogú felhasználó képes legyen minden olyan dolgot végrehajtani amit a dolgozó jogosúltsággal rendelkező is meg tud tenni, plussz ezen kívűl képes legyen vendégek adatainak a szerkesztésére, törlésére valamint új dolgozó felvételére, keresésére valamint a dolgozó adatainak módosítására, számla kiállítására és adminisztrátor jogot adni a dolgozóknak.
