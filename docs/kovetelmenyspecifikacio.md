@@ -24,6 +24,11 @@ A koronavírus ugyanolyan rossz hatással volt hazánk turizmusára is mint a t�
  
 ## 2. Jelenlegi helyzet
 
+A Balaton egyre keresettebb nyaralási helyszín a belföldi valamint a külföldi turisták számára.
+Ez a növekedés azt eredményezi, hogy az utóbbi években a panziónkban is megugrott az ide látogató vendégek száma.
+A gyors növekedés viszont megnöveli az adminisztrációs munkát amit eddig papíron oldottunk meg.
+Dolgozóinknak egy vendégről több adatott is rögziteni kell például:
+
 ## 3. Vágyálom rendszer
 
 A vezetőség közös elhatározásra jutott azzal kapcsolatban, hogy a klasszikus papír, ceruza alapú adminisztrációs rendszer már nem elég hatékony. Ezért elkezdtünk gondolkodni, hogy mi lenne a legoptimálisabb megoldás. A gondolkodás közepette több ötlet is felvetésre került viszont az egyik ötlet kiemelkedően a legalkalmasabbnak tűnt mivel a vezetőség egydöntetűen tetszését nyilvánította azzal kapcsolatban, hogy egy alkalmazásra lenne szükség ami tárolja az adatokat. Az alkalmazással kapcsolatban a legfontosabb kritérium az, hogy képes legyen tárolni a jelenlegi helyzet pontban emlitett adatokat. Vendégek felvételéhez valamint az eltárolt adatokhoz elérést kel biztosítani a dolgozóink számára, hogy a vendégek adatait lássák és számlát tudjanak kiállítani. Valamint szeretnénk ha a rendszer úgy nézne ki, hogy ha lenne két különböző jogosultsággal bíró csoport az adminisztrátor jogú felhasználó és a dolgozó jogosultságú. A dolgozó jogosúltságú felhasználó képes legyen új vendég felvételére, vendégek közti keresésre valamint számla kiállítására. Ez azért fontos, mert a biztonságra való törekvés szempontjából úgy szeretnénk kialakítani a rendszert, hogy az adminisztrátor jogú felhasználó képes legyen minden olyan dolgot végrehajtani amit a dolgozó jogosúltsággal rendelkező is meg tud tenni, plussz ezen kívűl képes legyen vendégek adatainak a szerkesztésére, törlésére valamint új dolgozó felvételére, keresésére valamint a dolgozó adatainak módosítására, számla kiállítására és adminisztrátor jogot adni a dolgozóknak.
