@@ -20,6 +20,11 @@ A Követelmény specifikáció 'Követelménylista' című bekezdése alapján a
 * Egy rendszer képes a dolgozok adatainak tárolására:
 A programmal lehetőséget szeretnénk nyújtani a panzióban dolgozó alkalmazottak nyilvántartására.
 
+* Egy rendszer ami nyilvántartja a panzióban megszállt vendégeket:
+A programmal lehetőséget szeretnénk nyújtani a panzióban megszállt vendégek nyilvántartására. 
+Továbbá a panzióban dolgozó személyzet számára szeretnénk átláthatóbbá tenni az adminisztrációt. 
+Akár több munkaállomáson is futhat de mégis egy és ugyan azon adathalmazt éri el, így növelve a hatékonyságot.
+
 ## 3. Jelenlegi helyzet
 
 A jelenlegi rendszerünk, ami papíron és ceruzán alapuló nyilvántartó rendszer megérett arra, hogy egy modernebb egyszerűbb a huszonegyedik századhoz méltóra cseréljük. Valójában erre a döntésre azért is szántuk el magunkat, hogy a jelenlegi munkánkat megkönnyítsük. Melesleg így a későbbiekben képesek lehetünk tartani a konkurens panziókkal a versenyt és gyorsabban kiszolgálni a szolgáltatásainkat igénybevevő vendégeket. Természetesen az sem mellékes, hogy ennek az újításnak köszönhetően gyorsabban letudjuk kérdezni az adatbázisból azt, hogy egy bizonyos vendég mikor és mennyi időt töltött nálunk valamint, hogy mikor is hagyta el a panziót. Ezek a folyamatok eddig hosszú perceket vettek el a recepciós és a vendégek idejéből is. Ami sajnos a mai rohanó világban tarthatatlan. Így ha akarjuk ha nem kényszerből is muszáj megváltozni a panzió jelenlegi rendszerét. Viszont mivel a diszkréció és a biztonság is elég fontos szempont és eddig sajnos a papír ceruza alapu rendszer esetén sok volt a biztonsági rés, hogy bármilyen probléma bekövetkezzen ezért úgy szeretnénk kivitelezni a rendszert, hogy a recepciós az alkalmazás használata során ne kapjon jogosúltságot arra, hogy a vendégek adatait kénye kedvére tudja módosítani. Ennek a kritériumnak eleget téve úgy gondoltuk, hogy létrehozunk egy adminisztrátor jogosúltsággal rendelkező felhasználót az alkalmazásban aki képes arra, hogy az adatokat módosíthatja. Ezt a lépést azért tettük meg, hogy a vendégek adatai diszkréten legyen kezelve valamint a biztonság sem elhanyagolható abból a szempontból sem, hogy a számla kiállítása esetén a vendég valós adatai szerepeljenek ott.
