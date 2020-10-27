@@ -21,6 +21,8 @@ A koronavírus ugyanolyan rossz hatással volt hazánk turizmusára is mint a t�
  párhuzamosan. Mivel a döntés nem régen született meg ezért először a legfontosabb funkciók fejlesztése
  fog megtörténni, majd a visszajelzések alapján priorizáljuk a további fejlesztéseket a felhasználói
  igények alapján.
+ 
+## 2. Jelenlegi helyzet
 
 ## 3. Vágyálom rendszer
 
