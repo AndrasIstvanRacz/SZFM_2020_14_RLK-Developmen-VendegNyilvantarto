@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="400.0" style="-fx-background-color: #ffb682;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#loginWithEnter" prefHeight="500.0" prefWidth="400.0" style="-fx-background-color: #ffb682;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.LoginController">
    <children>
       <ImageView fitHeight="162.0" fitWidth="159.0" layoutX="121.0" layoutY="43.0" opacity="0.6" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -17,7 +17,7 @@
       </ImageView>
       <TextField layoutX="50.0" layoutY="285.0" prefHeight="35.0" prefWidth="300.0" promptText="Username" stylesheets="@../css/LabelsFieldsButtons.css" />
       <PasswordField layoutX="50.0" layoutY="359.0" prefHeight="35.0" prefWidth="300.0" promptText="Password" stylesheets="@../css/LabelsFieldsButtons.css" />
-      <Button layoutX="136.0" layoutY="432.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="130.0" stylesheets="@../css/LabelsFieldsButtons.css" text="Login" textFill="WHITE">
+      <Button layoutX="136.0" layoutY="432.0" mnemonicParsing="false" onAction="#loginWithLoginButton" prefHeight="40.0" prefWidth="130.0" stylesheets="@../css/LabelsFieldsButtons.css" text="Login" textFill="WHITE">
          <font>
             <Font size="18.0" />
          </font>

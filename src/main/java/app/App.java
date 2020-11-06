@@ -8,20 +8,18 @@ import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.GridPane;
+import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
 import javax.persistence.EntityManager;
 import java.io.IOException;
 
-/**
- * JavaFX App
- */
 public class App extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
-        GridPane root = FXMLLoader.load(getClass().getResource("LoginPage.fxml"));
+        Pane root = FXMLLoader.load(getClass().getResource("LoginPage.fxml"));
         Scene scene = new Scene(root);
         stage.setScene(scene);
         stage.setResizable(false);
