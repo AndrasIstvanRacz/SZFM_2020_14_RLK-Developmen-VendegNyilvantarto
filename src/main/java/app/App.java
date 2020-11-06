@@ -24,6 +24,7 @@ public class App extends Application {
         GridPane root = FXMLLoader.load(getClass().getResource("LoginPage.fxml"));
         Scene scene = new Scene(root);
         stage.setScene(scene);
+        stage.setResizable(false);
         stage.getIcons().add(new Image("Images/Icon.png"));
         stage.setTitle("Login");
         stage.show();
