@@ -15,3 +15,15 @@
 .button:pressed {
     -fx-background-color: rgba(0, 0, 0, 0.7);
 }
+
+.text-field {
+    -fx-prompt-text-fill: white;
+    -fx-background-color: rgba(0, 0, 0, 0.5);
+    -fx-text-fill: white;
+}
+
+.password-field {
+    -fx-prompt-text-fill: white;
+    -fx-background-color: rgba(0, 0, 0, 0.5);
+    -fx-text-fill: white;
+}
