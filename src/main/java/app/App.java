@@ -24,9 +24,8 @@ public class App extends Application {
         GridPane root = FXMLLoader.load(getClass().getResource("LoginPage.fxml"));
         Scene scene = new Scene(root);
         stage.setScene(scene);
-        stage.initStyle(StageStyle.UNDECORATED);
         stage.getIcons().add(new Image("Images/Icon.png"));
-        stage.setTitle("Nyílvántartó");
+        stage.setTitle("Login");
         stage.show();
         /*stage.setOnCloseRequest(windowEvent -> {
             EmfGetter.closeEmf();
