@@ -12,7 +12,7 @@
    <children>
       <ImageView fitHeight="162.0" fitWidth="159.0" layoutX="121.0" layoutY="43.0" opacity="0.6" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../Images/LoginIcon.png" />
+            <Image url="@../images/LoginIcon.png" />
          </image>
       </ImageView>
       <TextField fx:id="tfUsername" layoutX="50.0" layoutY="285.0" prefHeight="35.0" prefWidth="300.0" promptText="Username" stylesheets="@../css/LabelsFieldsButtons.css" />

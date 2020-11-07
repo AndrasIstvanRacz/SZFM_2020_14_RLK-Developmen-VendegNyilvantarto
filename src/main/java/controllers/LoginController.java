@@ -13,7 +13,6 @@ import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
-import javassist.bytecode.stackmap.BasicBlock;
 import org.tinylog.Logger;
 
 import java.io.IOException;
@@ -56,7 +55,7 @@ public class LoginController {
             Scene scene = new Scene(root);
             Stage stage = new Stage();
             stage.setScene(scene);
-            stage.getIcons().add(new Image("Images/Icon.png"));
+            stage.getIcons().add(new Image("images/Icon.png"));
             stage.setTitle("Vendég nyílvántartó");
             stage.show();
         } catch (IOException ex ) {
