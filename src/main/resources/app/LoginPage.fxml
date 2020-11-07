@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#loginWithEnter" prefHeight="500.0" prefWidth="400.0" style="-fx-background-color: #ffb682;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.LoginController">
+<Pane fx:id="login" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#loginWithEnter" prefHeight="500.0" prefWidth="400.0" style="-fx-background-color: #ffb682;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.LoginController">
    <children>
       <ImageView fitHeight="162.0" fitWidth="159.0" layoutX="121.0" layoutY="43.0" opacity="0.6" pickOnBounds="true" preserveRatio="true">
          <image>
