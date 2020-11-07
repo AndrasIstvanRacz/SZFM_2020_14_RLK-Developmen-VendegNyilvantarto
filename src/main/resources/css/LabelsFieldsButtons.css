@@ -3,26 +3,33 @@
     -fx-border-width: 0;
     -fx-background-radius: 0;
     -fx-background-color: rgba(0, 0, 0, 0.5);
-    -fx-font-family:"Segoe UI", Helvetica, Arial, sans-serif;
-    -fx-font-size: 2em;
+    -fx-font-size: 18px;
     -fx-text-fill: white;
 }
 
 .button:hover {
     -fx-background-color: rgba(0, 0, 0, 0.6);
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
 }
 
 .button:pressed {
     -fx-background-color: rgba(0, 0, 0, 0.7);
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
 }
 
 .text-field {
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
     -fx-prompt-text-fill: white;
     -fx-background-color: rgba(0, 0, 0, 0.5);
     -fx-text-fill: white;
 }
 
 .password-field {
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
     -fx-prompt-text-fill: white;
     -fx-background-color: rgba(0, 0, 0, 0.5);
     -fx-text-fill: white;
