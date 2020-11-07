@@ -15,8 +15,8 @@
             <Image url="@../Images/LoginIcon.png" />
          </image>
       </ImageView>
-      <TextField layoutX="50.0" layoutY="285.0" prefHeight="35.0" prefWidth="300.0" promptText="Username" stylesheets="@../css/LabelsFieldsButtons.css" />
-      <PasswordField layoutX="50.0" layoutY="359.0" prefHeight="35.0" prefWidth="300.0" promptText="Password" stylesheets="@../css/LabelsFieldsButtons.css" />
+      <TextField fx:id="tfUsername" layoutX="50.0" layoutY="285.0" prefHeight="35.0" prefWidth="300.0" promptText="Username" stylesheets="@../css/LabelsFieldsButtons.css" />
+      <PasswordField fx:id="pfPassword" layoutX="50.0" layoutY="359.0" prefHeight="35.0" prefWidth="300.0" promptText="Password" stylesheets="@../css/LabelsFieldsButtons.css" />
       <Button layoutX="136.0" layoutY="432.0" mnemonicParsing="false" onAction="#loginWithLoginButton" prefHeight="40.0" prefWidth="130.0" stylesheets="@../css/LabelsFieldsButtons.css" text="Login" textFill="WHITE">
          <font>
             <Font size="18.0" />
