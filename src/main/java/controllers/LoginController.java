@@ -42,24 +42,31 @@ public class LoginController {
 
     void authentication(){
         if(tfUsername.getText().equals("admin")
-            && pfPassword.getText().equals("admin")){
+                && pfPassword.getText().equals("admin")){
             Stage stage  = (Stage) login.getScene().getWindow();
             stage.close();
-            launchApplication("AdminWindow");
+            launchApplication("AdminWindow", "(Admin)");
+        }
+        else if (tfUsername.getText().equals("Rabsz Olga")
+                && pfPassword.getText().equals("rOlga")){
+            Stage stage  = (Stage) login.getScene().getWindow();
+            stage.close();
+            launchApplication("UserWindow", "(User)");
         }
     }
 
-    void launchApplication (String appInterfaceType) {
+    void launchApplication (String appInterfaceType, String userType) {
         try {
             BorderPane root = FXMLLoader.load(Main.class.getResource(appInterfaceType +".fxml"));
             Scene scene = new Scene(root);
             Stage stage = new Stage();
             stage.setScene(scene);
             stage.getIcons().add(new Image("images/Icon.png"));
-            stage.setTitle("Vendég nyílvántartó");
+            stage.setTitle(userType + " Data management app");
             stage.show();
+            Logger.info("Launch application success");
         } catch (IOException ex ) {
-            Logger.error("FXML loading failed.");
+            Logger.error("Launch application failed");
         }
 
 
