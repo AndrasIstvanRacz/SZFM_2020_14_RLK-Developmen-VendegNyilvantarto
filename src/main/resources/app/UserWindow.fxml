@@ -11,7 +11,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: #ffb682;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: #ffb682;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.UserWindowController" fx:id="user">
    <center>
       <GridPane BorderPane.alignment="CENTER">
         <columnConstraints>
@@ -43,7 +43,7 @@
                      <font>
                         <Font size="15.0" />
                      </font></Button>
-                  <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" stylesheets="@../css/LabelsFieldsButtons.css" text="Edit" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                  <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" stylesheets="@../css/LabelsFieldsButtons.css" text="Edit" GridPane.columnIndex="3" GridPane.rowIndex="1" fx:id="btnEdit">
                      <font>
                         <Font size="15.0" />
                      </font></Button>
@@ -63,7 +63,7 @@
                 <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
               </rowConstraints>
                <children>
-                  <TableView prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1">
+                  <TableView prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" stylesheets="@../css/TableStyle.css">
                     <columns>
                       <TableColumn prefWidth="75.0" text="C1" />
                       <TableColumn prefWidth="75.0" text="C2" />
