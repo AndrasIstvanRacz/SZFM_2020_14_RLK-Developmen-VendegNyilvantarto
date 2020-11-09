@@ -20,6 +20,8 @@ import java.io.IOException;
 
 public class LoginController {
 
+    public static String userType;
+
     @FXML
     private Pane login;
 
@@ -56,14 +58,15 @@ public class LoginController {
         }
     }
 
-    void launchApplication (String appInterfaceType, String userType) {
+    void launchApplication (String appInterfaceType, String uType) {
         try {
+            userType = uType;
             BorderPane root = FXMLLoader.load(Main.class.getResource(appInterfaceType +".fxml"));
             Scene scene = new Scene(root);
             Stage stage = new Stage();
             stage.setScene(scene);
             stage.getIcons().add(new Image("images/Icon.png"));
-            stage.setTitle(userType + " Data management app");
+            stage.setTitle(uType + " Data management app");
             stage.show();
             Logger.info("Launch application success");
         } catch (IOException ex ) {
