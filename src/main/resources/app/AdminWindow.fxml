@@ -8,8 +8,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: #ffb682;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:id="admin" fx:controller="controllers.AdminWindowController">
+<BorderPane fx:id="admin" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: #ffb682;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.AdminWindowController">
    <left>
       <GridPane style="-fx-background-color: rgba(0, 0, 0, 0.5);" stylesheets="@../css/AdminWindowStyle.css" BorderPane.alignment="CENTER">
         <columnConstraints>
@@ -21,7 +20,7 @@
           <RowConstraints vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Button alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" stylesheets="@../css/AdminWindowStyle.css" text="Employees" textFill="WHITE">
+            <Button fx:id="btnEmployees" onMouseClicked="#handleClicks" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" stylesheets="@../css/AdminWindowStyle.css" text="Employees" textFill="WHITE">
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
@@ -29,7 +28,7 @@
                   <Font size="18.0" />
                </font>
             </Button>
-            <Button alignment="CENTER" graphicTextGap="0.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="68.0" prefWidth="200.0" stylesheets="@../css/AdminWindowStyle.css" text="Guests" textFill="WHITE" GridPane.rowIndex="1">
+            <Button fx:id="btnGuests" onMouseClicked="#handleClicks" alignment="CENTER" graphicTextGap="0.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="68.0" prefWidth="200.0" stylesheets="@../css/AdminWindowStyle.css" text="Guests" textFill="WHITE" GridPane.rowIndex="1">
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
