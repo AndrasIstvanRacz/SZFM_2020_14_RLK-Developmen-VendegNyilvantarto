@@ -62,3 +62,113 @@
 .combo-box .list-cell:pressed{
     -fx-background-color:rgba(0, 0, 0, 0.7);
 }
+
+.date-picker {
+    -fx-border-radius: 0;
+    -fx-background-color: rgba(0, 0, 0, 0.5);
+}
+
+.date-picker .combo-box {
+    -fx-border-radius: 0;
+    -fx-background-color: transparent;
+
+}
+
+.date-picker .text-field{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+.date-picker .arrow-button{
+    -fx-background-color: rgba(0, 0, 0, 0.0);
+}
+
+.date-picker .arrow-button .arrow{
+    -fx-border-radius: 0;
+    -fx-background-radius:0;
+    -fx-background-color: white;
+}
+
+.date-picker .arrow-button:hover {
+    -fx-border-radius: 0;
+    -fx-background-radius:0;
+    -fx-background-color: rgba(0, 0, 0, 0.1);
+}
+
+.date-picker .button {
+    -fx-border-radius: 0;
+    -fx-background-color: transparent;
+    -fx-border-color:transparent;
+    -fx-pref-height: 35px;
+    -fx-pref-width: 35px;
+}
+
+.date-picker .button:hover {
+    -fx-border-radius: 0;
+    -fx-background-color:rgba(0, 0, 0, 0.7);
+    -fx-pref-height: 35px;
+    -fx-pref-width: 35px;
+}
+
+.date-picker .button .arrow:pressed {
+    -fx-border-radius: 0;
+    -fx-background-color:rgba(0, 0, 0, 0.9);
+    -fx-pref-height: 35px;
+    -fx-pref-width: 35px;
+}
+
+.date-picker-popup {
+    -fx-border-radius: 0;
+    -fx-background-color: rgba(0, 0, 0, 0.8);
+    -fx-control-inner-background: transparent;
+    -fx-text-fill: white;
+}
+.date-picker-popup > .calendar-grid {
+    -fx-border-radius: 0;
+    -fx-background-color: transparent;
+}
+
+.date-picker-popup > .month-year-pane {
+    -fx-border-radius: 0;
+    -fx-background-color: transparent;
+}
+
+.date-picker-popup > .month-year-pane .label {
+    -fx-border-radius: 0;
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+.date-picker-popup > * > .date-cell {
+    -fx-border-radius: 0;
+    -fx-background-color: transparent;
+    -fx-background-insets: 1, 2;
+    -fx-padding: 0;
+    -fx-alignment: BASELINE_CENTER;
+    -fx-opacity: 1.0;
+    -fx-text-fill: white;
+}
+
+.date-picker .cell {
+    -fx-border-radius: 0;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-pref-width:20px ;
+    -fx-pref-height:25px ;
+}
+
+.date-picker .cell:hover {
+    -fx-border-radius: 0;
+    -fx-background-color: rgba(0, 0, 0, 0.7);
+    -fx-border-color: transparent;
+    -fx-pref-width:20px ;
+    -fx-pref-height:25px ;
+}
+
+.date-picker .cell:focused {
+    -fx-border-radius: 0;
+    -fx-background-color:transparent;
+    -fx-border-color: transparent;
+    -fx-pref-width:20px ;
+    -fx-pref-height:25px ;
+}
