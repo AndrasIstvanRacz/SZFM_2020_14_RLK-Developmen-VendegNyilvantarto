@@ -43,11 +43,11 @@
                      <font>
                         <Font size="15.0" />
                      </font></Button>
-                  <Button fx:id="btnEdit" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" stylesheets="@../css/LabelsFieldsButtons.css" text="Edit" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                  <Button fx:id="btnEdit" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#handleEdit" stylesheets="@../css/LabelsFieldsButtons.css" text="Edit" GridPane.columnIndex="3" GridPane.rowIndex="1">
                      <font>
                         <Font size="15.0" />
                      </font></Button>
-                  <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" stylesheets="@../css/LabelsFieldsButtons.css" text="Add" GridPane.columnIndex="5" GridPane.rowIndex="1">
+                  <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#handleAdd" stylesheets="@../css/LabelsFieldsButtons.css" text="Add" GridPane.columnIndex="5" GridPane.rowIndex="1">
                      <font>
                         <Font size="15.0" />
                      </font></Button>
@@ -69,8 +69,8 @@
                       <TableColumn minWidth="-1.0" prefWidth="-1.0" text="Name" />
                         <TableColumn minWidth="-1.0" prefWidth="-1.0" text="Phone number" />
                         <TableColumn minWidth="-1.0" prefWidth="-1.0" text="E-mail" />
-                        <TableColumn minWidth="-1.0" prefWidth="-1.0" text="Occupying the room" />
-                        <TableColumn minWidth="-1.0" prefWidth="-1.0" text="Leaving the room" />
+                        <TableColumn minWidth="-1.0" prefWidth="-1.0" text="Start date" />
+                        <TableColumn minWidth="-1.0" prefWidth="-1.0" text="End date" />
                         <TableColumn minWidth="-1.0" prefWidth="-1.0" text="Room type" />
                         <TableColumn minWidth="-1.0" prefWidth="-1.0" text="Payment" />
                     </columns>
