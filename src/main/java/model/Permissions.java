@@ -18,8 +18,12 @@ import java.util.Date;
 public class Permissions {
 
     @Id
+    private String employeeUsername;
+
     @OneToOne
-    private String username;
+    @MapsId
+    @JoinColumn(name = "username")
+    private Employee employee;
 
     @Column(name = "password")
     private String password;
@@ -27,13 +31,6 @@ public class Permissions {
     @Column(name = "permission")
     private Integer permission;
 
-    public String getUsername() {
-        return username;
-    }
-
-    public void setUsername(String username) {
-        this.username = username;
-    }
 
     public String getPassword() {
         return password;
