@@ -26,4 +26,20 @@ public abstract class GenericDb<T> {
             em.close();
         }
     }
+
+    public boolean simpleDelete(T entity){
+        EntityManager em = EmfGetter.getEntityManager();
+        try{
+            em.getTransaction().begin();
+            em.remove(em.contains(entity) ? entity : em.merge(entity));
+            em.getTransaction().commit();
+            Logger.trace("A szimpla törlés sikeresen megtörtént.");
+            return true;
+        }catch (Exception e){
+            Logger.error("Hiba történt az entitás törlése közben: {}", e.toString());
+            return false;
+        }finally {
+            em.close();
+        }
+    }
 }
