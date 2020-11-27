@@ -19,7 +19,6 @@ public class Permissions {
 
     @Id
     @Column(name = "username")
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private String username;
 
     @Column(name = "password")
