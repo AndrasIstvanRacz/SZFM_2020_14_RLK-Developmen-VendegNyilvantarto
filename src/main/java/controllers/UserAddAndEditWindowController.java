@@ -2,13 +2,11 @@ package controllers;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
+import javafx.scene.control.DatePicker;
 import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
 
-public class EmployeeAddAndEditWindowController {
-
-    @FXML
-    private TextField tfUsername;
+public class UserAddAndEditWindowController {
 
     @FXML
     private TextField tfName;
@@ -20,26 +18,23 @@ public class EmployeeAddAndEditWindowController {
     private TextField tfEmail;
 
     @FXML
-    private TextField tfZipCode;
+    private TextField tfRoomType;
 
     @FXML
-    private TextField tfCity;
+    private TextField tfPayment;
 
     @FXML
-    private TextField tfStreetName;
+    private DatePicker dpStartDate;
 
     @FXML
-    private TextField tfHouseNumber;
+    private DatePicker dpEndDate;
 
     @FXML
     private Button btnDelete;
 
     @FXML
     protected void initialize(){
-        if(EmployeeWindowController.EmployeeAddOrEdit == "Edit"){
-            tfUsername.setEditable(false);
-
-        }else{
+        if(UserWindowController.UserAddOrEdit == "Add") {
             btnDelete.setOpacity(0);
             btnDelete.setDisable(true);
         }

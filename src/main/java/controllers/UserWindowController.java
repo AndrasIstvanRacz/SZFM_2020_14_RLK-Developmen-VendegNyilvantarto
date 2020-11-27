@@ -17,7 +17,7 @@ import java.io.IOException;
 
 public class UserWindowController {
 
-    public static String AddOrEdit;
+    public static String UserAddOrEdit;
 
     @FXML
     private BorderPane user;
@@ -46,7 +46,7 @@ public class UserWindowController {
     }
 
     void openAddOrEdit (String type) {
-        AddOrEdit = type;
+        UserAddOrEdit = type;
         try {
             Stage parentStage  = (Stage) user.getScene().getWindow();
             AnchorPane root = FXMLLoader.load(Main.class.getResource("UserAddAndEditWindow.fxml"));
