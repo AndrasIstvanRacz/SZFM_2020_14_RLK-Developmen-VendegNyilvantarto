@@ -26,22 +26,22 @@ public class Guest {
     private String name;
 
     @Column(name = "phone_number")
-    private String phone_number;
+    private Integer phone_number;
 
     @Column(name = "email")
     private String email;
 
     @Column(name = "occupying_the_room")
-    private String occupying_the_room;
+    private Date occupying_the_room;
 
     @Column(name = "leaving_the_room")
-    private String leaving_the_room;
+    private Date leaving_the_room;
 
     @Column(name = "room_type")
     private String room_type;
 
     @Column(name = "payment")
-    private String payment;
+    private Integer payment;
 
     @Column(name = "username")
     private String username;
@@ -62,11 +62,11 @@ public class Guest {
         this.name = name;
     }
 
-    public String getPhone_number() {
+    public Integer getPhone_number() {
         return phone_number;
     }
 
-    public void setPhone_number(String phone_number) {
+    public void setPhone_number(Integer phone_number) {
         this.phone_number = phone_number;
     }
 
@@ -78,19 +78,19 @@ public class Guest {
         this.email = email;
     }
 
-    public String getOccupying_the_room() {
+    public Date getOccupying_the_room() {
         return occupying_the_room;
     }
 
-    public void setOccupying_the_room(String occupying_the_room) {
+    public void setOccupying_the_room(Date occupying_the_room) {
         this.occupying_the_room = occupying_the_room;
     }
 
-    public String getLeaving_the_room() {
+    public Date getLeaving_the_room() {
         return leaving_the_room;
     }
 
-    public void setLeaving_the_room(String leaving_the_room) {
+    public void setLeaving_the_room(Date leaving_the_room) {
         this.leaving_the_room = leaving_the_room;
     }
 
@@ -102,11 +102,11 @@ public class Guest {
         this.room_type = room_type;
     }
 
-    public String getPayment() {
+    public Integer getPayment() {
         return payment;
     }
 
-    public void setPayment(String payment) {
+    public void setPayment(Integer payment) {
         this.payment = payment;
     }
 
