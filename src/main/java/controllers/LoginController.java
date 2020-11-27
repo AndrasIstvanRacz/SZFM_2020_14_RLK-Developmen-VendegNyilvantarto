@@ -1,6 +1,7 @@
 package controllers;
 
 import app.Main;
+import database.EmfGetter;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -31,6 +32,10 @@ public class LoginController {
     @FXML
     private PasswordField pfPassword;
 
+    @FXML
+    void initialize(){
+        EmfGetter.asd();
+    }
     @FXML
     void loginWithEnter(KeyEvent event) {
         if(event.getCode().equals(KeyCode.ENTER)){
