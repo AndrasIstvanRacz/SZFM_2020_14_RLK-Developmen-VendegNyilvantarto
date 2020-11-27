@@ -45,7 +45,7 @@ public class Guest {
 
     @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "username")
-    private String username;
+    private Employee username;
 
     public Integer getId() {
         return id;
