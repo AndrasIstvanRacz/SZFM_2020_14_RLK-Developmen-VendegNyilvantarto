@@ -43,7 +43,8 @@ public class Guest {
     @Column(name = "payment")
     private Integer payment;
 
-    @Column(name = "username")
+    @ManyToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name = "username")
     private String username;
 
     public Integer getId() {
