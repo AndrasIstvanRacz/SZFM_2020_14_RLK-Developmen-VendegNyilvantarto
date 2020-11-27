@@ -3,7 +3,13 @@ package database;
 import org.tinylog.Logger;
 
 import javax.persistence.EntityManager;
+import javax.persistence.Query;
+import javax.persistence.criteria.CriteriaBuilder;
+import javax.persistence.criteria.CriteriaQuery;
+import javax.persistence.criteria.Root;
 import java.lang.reflect.ParameterizedType;
+import java.util.ArrayList;
+import java.util.List;
 
 public abstract class GenericDb<T> {
 
@@ -55,5 +61,26 @@ public abstract class GenericDb<T> {
         }finally {
             em.close();
         }
+    }
+
+    public List<T> findAll(){
+        EntityManager em = EmfGetter.getEntityManager();
+        CriteriaBuilder cb = em.getCriteriaBuilder();
+
+        CriteriaQuery<T> cq = cb.createQuery(entityClass);
+
+        Root<T> from = cq.from(entityClass);
+
+        cq.select(from);
+
+        try{
+            Query q = em.createQuery(cq);
+            return q.getResultList();
+        }catch (Exception e){
+            Logger.error("Hiba minden megtalálás közben.");
+        }finally {
+            em.close();
+        }
+        return new ArrayList<T>();
     }
 }
