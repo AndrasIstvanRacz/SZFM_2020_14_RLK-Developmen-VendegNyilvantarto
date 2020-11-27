@@ -42,4 +42,18 @@ public abstract class GenericDb<T> {
             em.close();
         }
     }
+
+    public void commitChange(T entity){
+        EntityManager em = EmfGetter.getEntityManager();
+        try{
+            em.getTransaction().begin();
+            em.merge(entity);
+            em.getTransaction().commit();
+            Logger.trace("A frissítás sikeresen megtörtént.");
+        }catch (Exception e){
+            Logger.error("Hiba történt az entitás frissítése közben: {}", e.toString());
+        }finally {
+            em.close();
+        }
+    }
 }
