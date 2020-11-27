@@ -7,7 +7,10 @@ import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import javax.persistence.criteria.CriteriaBuilder;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.HashSet;
+import java.util.Set;
 
 @Data
 @Entity
@@ -18,7 +21,6 @@ import java.util.Date;
 public class Employee {
     @Id
     @Column(name = "username")
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private String username;
 
     @Column(name = "name")
@@ -41,6 +43,23 @@ public class Employee {
 
     @Column(name = "email")
     private String email;
+
+    @OneToMany(mappedBy = "username")
+    Set<Guest> user = new HashSet<>();
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "username='" + username + '\'' +
+                ", name='" + name + '\'' +
+                ", zip_code=" + zip_code +
+                ", city='" + city + '\'' +
+                ", street='" + street + '\'' +
+                ", house_number='" + house_number + '\'' +
+                ", phone_number=" + phone_number +
+                ", email='" + email + '\'' +
+                '}';
+    }
 
     public String getUsername() {
         return username;
