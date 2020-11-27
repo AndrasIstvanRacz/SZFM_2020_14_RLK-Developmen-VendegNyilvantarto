@@ -12,7 +12,7 @@ public class EmfGetter {
 
     private EmfGetter(){}
 
-    private static EntityManagerFactory emf = Persistence.createEntityManagerFactory("GuestsDB");
+    private static EntityManagerFactory emf = Persistence.createEntityManagerFactory("UsersDB");
 
     public static EntityManager getEntityManager() {
         return emf.createEntityManager();
@@ -20,4 +20,10 @@ public class EmfGetter {
     public static void closeEmf(){
         emf.close();
     }
+
+    public static void asd(){
+        emf.isOpen();
+    }
 }
+
+
