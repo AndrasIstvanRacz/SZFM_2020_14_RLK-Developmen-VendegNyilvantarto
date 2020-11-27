@@ -45,7 +45,7 @@ public class Guest {
 
     @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "username")
-    private Employee username;
+    private Employee employee;
 
     public Integer getId() {
         return id;
@@ -111,11 +111,4 @@ public class Guest {
         this.payment = payment;
     }
 
-    public String getUsername() {
-        return username;
-    }
-
-    public void setUsername(String username) {
-        this.username = username;
-    }
 }
