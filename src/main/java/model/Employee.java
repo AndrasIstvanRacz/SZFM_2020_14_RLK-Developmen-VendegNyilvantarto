@@ -20,6 +20,12 @@ import java.util.Set;
 @Table( name = "employee")
 public class Employee {
     @Id
+
+    @OneToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name = "username")
+    private Employee username;
+
+
     @Column(name = "username")
     private String username;
 
