@@ -19,15 +19,13 @@ import java.util.Set;
 @AllArgsConstructor
 @Table( name = "employee")
 public class Employee {
+
     @Id
-
-    @OneToOne(fetch = FetchType.EAGER)
-    @JoinColumn(name = "username")
-    private Employee username;
-
-
     @Column(name = "username")
-    private String username;
+    private String employeeUsername;
+
+    @OneToOne(mappedBy = "employee")
+    private Permissions permissions;
 
     @Column(name = "name")
     private String name;
@@ -50,13 +48,13 @@ public class Employee {
     @Column(name = "email")
     private String email;
 
-    @OneToMany(mappedBy = "username")
-    Set<Guest> user = new HashSet<>();
+    @OneToMany(mappedBy = "employee")
+    Set<Guest> guests = new HashSet<>();
 
     @Override
     public String toString() {
         return "Employee{" +
-                "username='" + username + '\'' +
+                "username='" + employeeUsername + '\'' +
                 ", name='" + name + '\'' +
                 ", zip_code=" + zip_code +
                 ", city='" + city + '\'' +
@@ -67,13 +65,6 @@ public class Employee {
                 '}';
     }
 
-    public String getUsername() {
-        return username;
-    }
-
-    public void setUsername(String username) {
-        this.username = username;
-    }
 
     public String getName() {
         return name;
