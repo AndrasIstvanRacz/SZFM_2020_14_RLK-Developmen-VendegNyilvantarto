@@ -1,6 +1,7 @@
 package database;
 
 import model.Employee;
+import org.dom4j.dom.DOMNodeHelper;
 import org.tinylog.Logger;
 
 import javax.persistence.EntityManager;
@@ -13,7 +14,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 
-public class EmployeeRepository {
+public class EmployeeRepository extends GenericDb<Employee> {
 
     public List<Employee> findByColumn(String selectedColumn, String entity) {
         EntityManager em = EmfGetter.getEntityManager();
@@ -42,4 +43,6 @@ public class EmployeeRepository {
         }
         return new ArrayList<>();
     }
+
+
 }
