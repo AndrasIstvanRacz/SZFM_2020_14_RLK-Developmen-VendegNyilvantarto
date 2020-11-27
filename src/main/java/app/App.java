@@ -21,9 +21,6 @@ public class App extends Application {
         stage.getIcons().add(new Image("images/Icon.png"));
         stage.setTitle("Login");
         stage.show();
-        /*stage.setOnCloseRequest(windowEvent -> {
-            EmfGetter.closeEmf();
-        });*/
     }
 
 }

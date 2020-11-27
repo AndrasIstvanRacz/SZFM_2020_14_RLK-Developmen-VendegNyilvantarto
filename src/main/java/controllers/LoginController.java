@@ -73,6 +73,9 @@ public class LoginController {
             stage.getIcons().add(new Image("images/Icon.png"));
             stage.setTitle(uType + " Data management app");
             stage.show();
+            stage.setOnCloseRequest(windowEvent -> {
+                EmfGetter.closeEmf();
+            });
             Logger.info("Launch application success");
         } catch (IOException ex ) {
             Logger.error("Launch application failed");
