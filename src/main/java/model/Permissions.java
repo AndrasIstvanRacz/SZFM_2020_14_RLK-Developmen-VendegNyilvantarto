@@ -18,7 +18,7 @@ import java.util.Date;
 public class Permissions {
 
     @Id
-    @Column(name = "username")
+    @OneToOne
     private String username;
 
     @Column(name = "password")
