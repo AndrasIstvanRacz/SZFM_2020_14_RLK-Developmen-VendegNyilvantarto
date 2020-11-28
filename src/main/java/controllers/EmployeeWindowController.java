@@ -60,6 +60,11 @@ public class EmployeeWindowController {
     @FXML
     private TextField tfSearch;
 
+    @FXML
+    protected void initialize() {
+        new Thread(() -> handleSearch()).start();
+    }
+
     private void initColumn() {
         columnUsername.setCellValueFactory(new PropertyValueFactory<>("Username"));
         columnPermission.setCellValueFactory(new PropertyValueFactory<>("Permission"));
@@ -70,6 +75,11 @@ public class EmployeeWindowController {
         columnCity.setCellValueFactory(new PropertyValueFactory<>("City"));
         columnStreetname.setCellValueFactory(new PropertyValueFactory<>("Street name"));
         columnHousenumber.setCellValueFactory(new PropertyValueFactory<>("House number"));
+    }
+
+    @FXML
+    void handleSearch() {
+
     }
 
     @FXML
