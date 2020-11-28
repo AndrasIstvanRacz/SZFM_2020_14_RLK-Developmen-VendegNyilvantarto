@@ -7,7 +7,7 @@
             <property name="javax.persistence.jdbc.url" value="jdbc:mysql://remotemysql.com:3306/TLu3O6wX2u"/>
             <property name="javax.persistence.jdbc.user" value="TLu3O6wX2u"/>
             <property name="javax.persistence.jdbc.password" value="jzboe73xnV"/>
-            <property name="javax.persistence.schema-generation.database.action" value="update"/>
+            <property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/>
             <property name="hibernate.format_sql" value="true"/>
             <property name="hibernate.use_sql_comments" value="true"/>
         </properties>
