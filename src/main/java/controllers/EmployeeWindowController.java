@@ -60,6 +60,8 @@ public class EmployeeWindowController {
     @FXML
     private ComboBox<String> cbColumnname;
 
+    private EmployeeRepository employeeRepository = new EmployeeRepository();
+
     @FXML
     private TextField tfSearch;
 
@@ -84,7 +86,7 @@ public class EmployeeWindowController {
     void handleSearch() {
         try {
             ObservableList<Employee> data = FXCollections.observableArrayList(
-                    EmployeeRepository.findByColumn(getColumnName(cbColumnName.getValue().trim()),
+                    employeeRepository.findByColumn(getColumnName(cbColumnname.getValue().trim()),
                             tfSearch.getText().trim()));
             tfSearch.clear();
             employeeTable.setItems(data);
@@ -98,6 +100,38 @@ public class EmployeeWindowController {
             alert.showAndWait();
         }
 
+    }
+
+    private String getColumnName(String name) {
+        String columnName;
+        if (name.equals("Username")) {
+            columnName = "employeeUsername";
+            return columnName;
+        } else if (name.equals("Permission")) {
+            columnName = "permissions";
+            return columnName;
+        } else if (name.equals("Name")) {
+            columnName = "name";
+            return columnName;
+        } else if (name.equals("Phone number")) {
+            columnName = "phone_number";
+            return columnName;
+        } else if (name.equals("E-mail")) {
+            columnName = "email";
+            return columnName;
+        } else if (name.equals("Zip code")) {
+            columnName = "zip_code";
+            return columnName;
+        } else if (name.equals("City")) {
+            columnName = "city";
+            return columnName;
+        } else if (name.equals("Street name")) {
+            columnName = "street";
+            return columnName;
+        } else{
+            columnName = "house_number";
+            return columnName;
+        }
     }
 
     @FXML
