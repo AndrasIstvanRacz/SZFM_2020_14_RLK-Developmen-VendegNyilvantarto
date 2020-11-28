@@ -16,6 +16,8 @@ import javafx.scene.layout.BorderPane;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 import model.Employee;
+import model.Permissions;
+import model.TransferUtil;
 import org.tinylog.Logger;
 
 import java.io.IOException;
@@ -32,9 +34,6 @@ public class EmployeeWindowController {
 
     @FXML
     private TableColumn<Employee, String> columnUsername;
-
-    @FXML
-    private TableColumn<Employee, Integer> columnPermission;
 
     @FXML
     private TableColumn<Employee, String> columnName;
@@ -71,15 +70,14 @@ public class EmployeeWindowController {
     }
 
     private void initColumn() {
-        columnUsername.setCellValueFactory(new PropertyValueFactory<>("Username"));
-        columnPermission.setCellValueFactory(new PropertyValueFactory<>("Permission"));
-        columnName.setCellValueFactory(new PropertyValueFactory<>("Name"));
-        columnPhonenumber.setCellValueFactory(new PropertyValueFactory<>("Phone number"));
-        columnEmail.setCellValueFactory(new PropertyValueFactory<>("E-mail"));
-        columnZipcode.setCellValueFactory(new PropertyValueFactory<>("Zip code"));
-        columnCity.setCellValueFactory(new PropertyValueFactory<>("City"));
-        columnStreetname.setCellValueFactory(new PropertyValueFactory<>("Street name"));
-        columnHousenumber.setCellValueFactory(new PropertyValueFactory<>("House number"));
+        columnUsername.setCellValueFactory(new PropertyValueFactory<>("employeeUsername"));
+        columnName.setCellValueFactory(new PropertyValueFactory<>("name"));
+        columnPhonenumber.setCellValueFactory(new PropertyValueFactory<>("phone_number"));
+        columnEmail.setCellValueFactory(new PropertyValueFactory<>("email"));
+        columnZipcode.setCellValueFactory(new PropertyValueFactory<>("zip_code"));
+        columnCity.setCellValueFactory(new PropertyValueFactory<>("city"));
+        columnStreetname.setCellValueFactory(new PropertyValueFactory<>("street"));
+        columnHousenumber.setCellValueFactory(new PropertyValueFactory<>("house_number"));
     }
 
     @FXML
@@ -142,6 +140,7 @@ public class EmployeeWindowController {
     @FXML
     void handleEdit() {
         openAddOrEdit("Edit");
+        TransferUtil.employee = employeeTable.getSelectionModel().getSelectedItem();
     }
 
     void openAddOrEdit (String type) {
