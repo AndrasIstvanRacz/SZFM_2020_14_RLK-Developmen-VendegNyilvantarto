@@ -11,6 +11,7 @@ import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
 import model.Employee;
 import model.Permissions;
+import model.TransferUtil;
 import org.tinylog.Logger;
 
 import javax.persistence.EntityManager;
@@ -59,6 +60,14 @@ public class EmployeeAddAndEditWindowController {
     protected void initialize(){
         if(EmployeeWindowController.EmployeeAddOrEdit == "Edit"){
             tfUsername.setEditable(false);
+            tfUsername.setText(TransferUtil.employee.getEmployeeUsername());
+            tfName.setText(TransferUtil.employee.getName());
+            tfPhoneNumber.setText(TransferUtil.employee.getPhone_number().toString());
+            tfCity.setText(TransferUtil.employee.getCity());
+            tfEmail.setText(TransferUtil.employee.getEmail());
+            tfZipCode.setText(TransferUtil.employee.getZip_code().toString());
+            tfStreetName.setText(TransferUtil.employee.getStreet());
+            tfHouseNumber.setText(TransferUtil.employee.getHouse_number());
 
         }else{
             btnDelete.setOpacity(0);
