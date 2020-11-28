@@ -1,6 +1,9 @@
 package controllers;
 
 import app.Main;
+import database.EmployeeRepository;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -79,6 +82,21 @@ public class EmployeeWindowController {
 
     @FXML
     void handleSearch() {
+        try {
+            ObservableList<Employee> data = FXCollections.observableArrayList(
+                    EmployeeRepository.findByColumn(getColumnName(cbColumnName.getValue().trim()),
+                            tfSearch.getText().trim()));
+            tfSearch.clear();
+            employeeTable.setItems(data);
+            initColumn();
+        }catch (Exception e){
+            Logger.error("Search by invalid type");
+            Alert alert = new Alert(Alert.AlertType.ERROR);
+            alert.setTitle("Error message");
+            alert.setHeaderText(null);
+            alert.setContentText("Invalid data type or bad database connection.");
+            alert.showAndWait();
+        }
 
     }
 
