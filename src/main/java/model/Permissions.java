@@ -14,39 +14,20 @@ import java.util.Date;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@Table( name = "permissions")
+@Table( name = "PERMISSION")
 public class Permissions {
 
     @Id
     private String employeeUsername;
 
     @OneToOne
-    @MapsId
-    @JoinColumn(name = "username")
-    private Employee employee;
+    @JoinColumn(name = "PERMISSION_USER")
+    private Employee permissionUser;
 
-    @Column(name = "password")
     private String password;
 
-    @Column(name = "permission")
     private Integer permission;
 
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
-    public Integer getPermission() {
-        return permission;
-    }
-
-    public void setPermission(Integer permission) {
-        this.permission = permission;
-    }
 }
 
 
