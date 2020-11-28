@@ -5,6 +5,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.image.Image;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
@@ -21,6 +22,17 @@ public class EmployeeWindowController {
 
     @FXML
     private BorderPane employee;
+
+    private void initColumn() {
+        columnID.setCellValueFactory(new PropertyValueFactory<>("id"));
+        columnName.setCellValueFactory(new PropertyValueFactory<>("name"));
+        columnPhoneNumber.setCellValueFactory(new PropertyValueFactory<>("phonenumber"));
+        columnEmail.setCellValueFactory(new PropertyValueFactory<>("email"));
+        columnStartDate.setCellValueFactory(new PropertyValueFactory<>("startdate"));
+        columnEndDate.setCellValueFactory(new PropertyValueFactory<>("enddate"));
+        columnRoomType.setCellValueFactory(new PropertyValueFactory<>("roomtype"));
+        columnPay.setCellValueFactory(new PropertyValueFactory<>("payment"));
+    }
 
     @FXML
     void handleAdd() {
