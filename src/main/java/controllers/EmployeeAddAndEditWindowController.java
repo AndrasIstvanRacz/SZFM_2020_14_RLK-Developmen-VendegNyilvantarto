@@ -52,6 +52,9 @@ public class EmployeeAddAndEditWindowController {
     @FXML
     private Button btnDelete;
 
+    @FXML
+    private Button saveButton;
+
     private EmployeeRepository employeeRepository = new EmployeeRepository();
 
     private PermissionsRepository permissionsRepository = new PermissionsRepository();
@@ -59,6 +62,7 @@ public class EmployeeAddAndEditWindowController {
     @FXML
     protected void initialize(){
         if(EmployeeWindowController.EmployeeAddOrEdit == "Edit"){
+            tfPermission.setText(TransferUtil.employee.getPermissions().getPermission().toString());
             tfUsername.setEditable(false);
             tfUsername.setText(TransferUtil.employee.getEmployeeUsername());
             tfName.setText(TransferUtil.employee.getName());
@@ -68,6 +72,7 @@ public class EmployeeAddAndEditWindowController {
             tfZipCode.setText(TransferUtil.employee.getZip_code().toString());
             tfStreetName.setText(TransferUtil.employee.getStreet());
             tfHouseNumber.setText(TransferUtil.employee.getHouse_number());
+            saveButton.setOnMouseClicked(mouseEvent -> handleClickUpdate());
 
         }else{
             btnDelete.setOpacity(0);
@@ -80,8 +85,8 @@ public class EmployeeAddAndEditWindowController {
 
     }
 
-    @FXML
-    void handleClickSave(MouseEvent event) {
+
+    void handleClickSave() {
 
         try {
             Employee newEmployee = new Employee();
@@ -95,20 +100,14 @@ public class EmployeeAddAndEditWindowController {
             newEmployee.setStreet(tfStreetName.getText().trim());
             newEmployee.setHouse_number(tfHouseNumber.getText().trim());
 
-            //newPermission.setEmployeeUsername(tfUsername.getText().trim());
 
             employeeRepository.createNew(newEmployee);
-            //newEmployee = employeeRepository.findByColumn("employeeUsername", tfUsername.getText().trim()).get(0);
             Permissions permissions = new Permissions();
             permissions.setEmployeeUsername(newEmployee.getEmployeeUsername());
             permissions.setPermissionUser(newEmployee);
             permissions.setPermission(Integer.parseInt(tfPermission.getText().trim()));
             newEmployee.setPermissions(permissions);
-            //employeeRepository.commitChange(newEmployee);
             permissionsRepository.createNew(permissions);
-
-
-            //employeeRepository.commitChange(newEmployee);
 
 
             tfUsername.clear();
@@ -119,6 +118,7 @@ public class EmployeeAddAndEditWindowController {
             tfCity.clear();
             tfStreetName.clear();
             tfHouseNumber.clear();
+
 
         } catch (Exception e){
             Logger.error("Inserting invalid type");
