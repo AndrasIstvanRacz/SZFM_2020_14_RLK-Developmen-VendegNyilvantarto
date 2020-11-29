@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import javax.persistence.criteria.CriteriaBuilder;
+import java.time.LocalDate;
 import java.util.Date;
 
 //@Data
@@ -27,9 +28,9 @@ public class Guest {
 
     private String email;
 
-    private Date occupying_the_room;
+    private LocalDate occupying_the_room;
 
-    private Date leaving_the_room;
+    private LocalDate leaving_the_room;
 
     private String room_type;
 
@@ -71,19 +72,19 @@ public class Guest {
         this.email = email;
     }
 
-    public Date getOccupying_the_room() {
+    public LocalDate getOccupying_the_room() {
         return occupying_the_room;
     }
 
-    public void setOccupying_the_room(Date occupying_the_room) {
+    public void setOccupying_the_room(LocalDate occupying_the_room) {
         this.occupying_the_room = occupying_the_room;
     }
 
-    public Date getLeaving_the_room() {
+    public LocalDate getLeaving_the_room() {
         return leaving_the_room;
     }
 
-    public void setLeaving_the_room(Date leaving_the_room) {
+    public void setLeaving_the_room(LocalDate leaving_the_room) {
         this.leaving_the_room = leaving_the_room;
     }
 
