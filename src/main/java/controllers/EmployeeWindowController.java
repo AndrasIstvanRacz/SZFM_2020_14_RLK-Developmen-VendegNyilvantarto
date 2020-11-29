@@ -2,7 +2,9 @@ package controllers;
 
 import app.Main;
 import database.EmployeeRepository;
+import javafx.beans.InvalidationListener;
 import javafx.collections.FXCollections;
+import javafx.collections.ListChangeListener;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -21,6 +23,10 @@ import model.TransferUtil;
 import org.tinylog.Logger;
 
 import java.io.IOException;
+import java.util.Collection;
+import java.util.Iterator;
+import java.util.List;
+import java.util.ListIterator;
 
 public class EmployeeWindowController {
 
@@ -64,10 +70,10 @@ public class EmployeeWindowController {
     @FXML
     private TextField tfSearch;
 
-    @FXML
+    /*@FXML
     protected void initialize() {
         new Thread(() -> handleSearch()).start();
-    }
+    }*/
 
     private void initColumn() {
         columnUsername.setCellValueFactory(new PropertyValueFactory<>("employeeUsername"));
@@ -89,6 +95,7 @@ public class EmployeeWindowController {
             tfSearch.clear();
             employeeTable.setItems(data);
             initColumn();
+
         }catch (Exception e){
             Logger.error("Search by invalid type");
             Alert alert = new Alert(Alert.AlertType.ERROR);
@@ -97,16 +104,12 @@ public class EmployeeWindowController {
             alert.setContentText("Invalid data type or bad database connection.");
             alert.showAndWait();
         }
-
     }
 
     private String getColumnName(String name) {
         String columnName;
         if (name.equals("Username")) {
             columnName = "employeeUsername";
-            return columnName;
-        } else if (name.equals("Permission")) {
-            columnName = "permissions";
             return columnName;
         } else if (name.equals("Name")) {
             columnName = "name";
@@ -139,8 +142,9 @@ public class EmployeeWindowController {
 
     @FXML
     void handleEdit() {
-        openAddOrEdit("Edit");
         TransferUtil.employee = employeeTable.getSelectionModel().getSelectedItem();
+        openAddOrEdit("Edit");
+
     }
 
     void openAddOrEdit (String type) {

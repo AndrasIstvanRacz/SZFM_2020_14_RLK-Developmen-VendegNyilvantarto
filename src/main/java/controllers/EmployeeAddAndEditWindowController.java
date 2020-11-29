@@ -122,8 +122,6 @@ public class EmployeeAddAndEditWindowController {
     void handleClickDelete() {
         permissionsRepository.simpleDelete(employee.getPermissions());
         employeeRepository.simpleDelete(employee);
-
-
     }
 
 
