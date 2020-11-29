@@ -29,14 +29,20 @@ public class AdminWindowController {
     @FXML
     void initialize(){
         admin.setCenter(FXMLLoader.load(Main.class.getResource("EmployeeWindow.fxml")));
+        btnEmployees.setStyle("-fx-background-color: rgba(0, 0, 0, 0.6)");
     }
 
     @FXML
     void handleClicks(MouseEvent event) {
         if(event.getSource() == btnEmployees){
+            btnGuests.setStyle("-fx-background-color: transparent");
+            btnEmployees.setStyle("-fx-background-color: rgba(0, 0, 0, 0.6)");
             loadFXML("EmployeeWindow");
+
         }
         else if(event.getSource() == btnGuests){
+            btnEmployees.setStyle("-fx-background-color: transparent");
+            btnGuests.setStyle("-fx-background-color: rgba(0, 0, 0, 0.6)");
             loadFXML("UserWindow");
         }
     }
