@@ -21,7 +21,7 @@ public class EmfGetter {
         emf.close();
     }
 
-    public static void asd(){
+    public static void openEmf(){
         emf.isOpen();
     }
 }
