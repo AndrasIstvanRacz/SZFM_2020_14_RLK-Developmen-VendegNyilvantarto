@@ -115,4 +115,29 @@ public class UserAddAndEditWindowController {
 
     }
 
+    private void handleClickUpdate() {
+
+        try {
+
+            guest.setName(tfName.getText().trim());
+            guest.setPhone_number(parseInt(tfPhoneNumber.getText().trim()));
+            guest.setOccupying_the_room(dpStartDate.getValue());
+            guest.setLeaving_the_room(dpStartDate.getValue());
+            guest.setRoom_type(tfRoomType.getText().trim());
+            guest.setPayment(parseInt(tfPayment.getText().trim()));
+
+            guestRepository.commitChange(guest);
+
+        } catch (Exception e){
+            Logger.error("Inserting invalid type");
+            Alert alert = new Alert(Alert.AlertType.ERROR);
+            alert.setTitle("Error message");
+            alert.setHeaderText(null);
+            alert.setContentText("Invalid data type or bad database connection.");
+            alert.showAndWait();
+        }
+
+
+    }
+
 }
