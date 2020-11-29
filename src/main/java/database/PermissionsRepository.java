@@ -19,7 +19,7 @@ public class PermissionsRepository extends GenericDb<Permissions> {
 
         Root<Permissions> from = cq.from(Permissions.class);
 
-        cq.select(from).where(cb.like(from.get("username"),name));
+        cq.select(from).where(cb.like(from.get("employeeUsername"),name));
 
         try{
             Query q = em.createQuery(cq);
