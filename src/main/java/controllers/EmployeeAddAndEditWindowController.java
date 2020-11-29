@@ -149,6 +149,7 @@ public class EmployeeAddAndEditWindowController {
             permissionsRepository.createNew(permissions);
 
 
+            tfPermission.clear();
             tfUsername.clear();
             tfName.clear();
             tfPhoneNumber.clear();
