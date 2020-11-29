@@ -9,7 +9,7 @@ import javax.persistence.*;
 import javax.persistence.criteria.CriteriaBuilder;
 import java.util.Date;
 
-@Data
+//@Data
 @Entity
 @Builder
 @NoArgsConstructor
@@ -28,6 +28,37 @@ public class Permissions {
 
     private Integer permission;
 
+    public String getEmployeeUsername() {
+        return employeeUsername;
+    }
+
+    public void setEmployeeUsername(String employeeUsername) {
+        this.employeeUsername = employeeUsername;
+    }
+
+    public Employee getPermissionUser() {
+        return permissionUser;
+    }
+
+    public void setPermissionUser(Employee permissionUser) {
+        this.permissionUser = permissionUser;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public Integer getPermission() {
+        return permission;
+    }
+
+    public void setPermission(Integer permission) {
+        this.permission = permission;
+    }
 }
 
 
