@@ -28,12 +28,12 @@
             <Font size="15.0" />
          </font>
       </TextField>
-      <TextField fx:id="tfRoomType" layoutX="30.0" layoutY="371.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" promptText="City" stylesheets="@../css/LabelsFieldsButtons.css" text="Room type" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="330.0">
+      <TextField fx:id="tfRoomType" layoutX="30.0" layoutY="371.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" promptText="Room type" stylesheets="@../css/LabelsFieldsButtons.css" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="330.0">
          <font>
             <Font size="15.0" />
          </font>
       </TextField>
-      <TextField fx:id="tfPayment" layoutX="30.0" layoutY="432.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" promptText="Street name" stylesheets="@../css/LabelsFieldsButtons.css" text="Payment" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="390.0">
+      <TextField fx:id="tfPayment" layoutX="30.0" layoutY="432.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" promptText="Payment" stylesheets="@../css/LabelsFieldsButtons.css" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="390.0">
          <font>
             <Font size="15.0" />
          </font>
