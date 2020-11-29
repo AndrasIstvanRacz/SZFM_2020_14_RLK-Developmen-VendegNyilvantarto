@@ -19,6 +19,7 @@ import javax.persistence.EntityManager;
 import java.io.IOException;
 
 import static java.lang.Integer.parseInt;
+import static model.TransferUtil.employee;
 
 public class EmployeeAddAndEditWindowController {
 
@@ -62,16 +63,16 @@ public class EmployeeAddAndEditWindowController {
     @FXML
     protected void initialize(){
         if(EmployeeWindowController.EmployeeAddOrEdit == "Edit"){
-            tfPermission.setText(TransferUtil.employee.getPermissions().getPermission().toString());
+            tfPermission.setText(employee.getPermissions().getPermission().toString());
             tfUsername.setEditable(false);
-            tfUsername.setText(TransferUtil.employee.getEmployeeUsername());
-            tfName.setText(TransferUtil.employee.getName());
-            tfPhoneNumber.setText(TransferUtil.employee.getPhone_number().toString());
-            tfCity.setText(TransferUtil.employee.getCity());
-            tfEmail.setText(TransferUtil.employee.getEmail());
-            tfZipCode.setText(TransferUtil.employee.getZip_code().toString());
-            tfStreetName.setText(TransferUtil.employee.getStreet());
-            tfHouseNumber.setText(TransferUtil.employee.getHouse_number());
+            tfUsername.setText(employee.getEmployeeUsername());
+            tfName.setText(employee.getName());
+            tfPhoneNumber.setText(employee.getPhone_number().toString());
+            tfCity.setText(employee.getCity());
+            tfEmail.setText(employee.getEmail());
+            tfZipCode.setText(employee.getZip_code().toString());
+            tfStreetName.setText(employee.getStreet());
+            tfHouseNumber.setText(employee.getHouse_number());
             saveButton.setOnMouseClicked(mouseEvent -> handleClickUpdate());
 
         }else{
@@ -98,7 +99,7 @@ public class EmployeeAddAndEditWindowController {
 
             employeeRepository.commitChange(newEmployee);
 
-            Permissions permissions = TransferUtil.employee.getPermissions();
+            Permissions permissions = employee.getPermissions();
             Logger.trace("megtaláltam basszameg");
             permissions.setPermission(parseInt(tfPermission.getText().trim()));
             Logger.trace("szetteltem a permissömnt");
@@ -118,7 +119,10 @@ public class EmployeeAddAndEditWindowController {
     }
 
     @FXML
-    void handleClickDelete(MouseEvent event) {
+    void handleClickDelete() {
+        permissionsRepository.simpleDelete(employee.getPermissions());
+        employeeRepository.simpleDelete(employee);
+
 
     }
 
