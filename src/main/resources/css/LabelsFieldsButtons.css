@@ -65,6 +65,7 @@
 
 .date-picker {
     -fx-border-radius: 0;
+    -fx-background-radius:0;
     -fx-background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -77,6 +78,7 @@
 .date-picker .text-field{
     -fx-background-color: transparent;
     -fx-text-fill: white;
+    -fx-font-size: 15px;
 }
 
 .date-picker .arrow-button{
