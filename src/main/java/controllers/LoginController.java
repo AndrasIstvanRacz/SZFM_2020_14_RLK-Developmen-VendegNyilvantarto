@@ -18,6 +18,7 @@ import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 import model.Permissions;
+import model.TransferUtil;
 import org.tinylog.Logger;
 
 import java.io.IOException;
@@ -79,6 +80,7 @@ public class LoginController {
                 userPermission = permissionsRepository.findByUsername(tfUsername.getText());
                 if (userPermission.getEmployeeUsername().equals(tfUsername.getText())
                         && userPermission.getPassword().equals(pfPassword.getText())) {
+                    TransferUtil.user = tfUsername.getText();
                     if (userPermission.getPermission() == 1) {
                         Stage stage = (Stage) login.getScene().getWindow();
                         stage.close();
