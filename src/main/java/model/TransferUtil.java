@@ -8,4 +8,8 @@ public final class TransferUtil {
     private TransferUtil(){}
 
     public static Employee employee;
+
+    public static Guest guest;
+
+    public static String user;
 }
