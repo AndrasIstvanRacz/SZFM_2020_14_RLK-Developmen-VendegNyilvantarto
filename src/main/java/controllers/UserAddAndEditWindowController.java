@@ -15,9 +15,11 @@ import model.Permissions;
 import model.TransferUtil;
 import org.tinylog.Logger;
 
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+
 import static java.lang.Integer.parseInt;
-import static model.TransferUtil.employee;
-import static model.TransferUtil.guest;
+import static model.TransferUtil.*;
 
 public class UserAddAndEditWindowController {
 
@@ -43,29 +45,41 @@ public class UserAddAndEditWindowController {
     private DatePicker dpEndDate;
 
     @FXML
+    private Button saveButton;
+
+    @FXML
     private Button btnDelete;
 
     private GuestRepository guestRepository = new GuestRepository();
 
     private EmployeeRepository employeeRepository = new EmployeeRepository();
 
-    private PermissionsRepository permissionsRepository = new PermissionsRepository();
-
     @FXML
     protected void initialize(){
-        if(UserWindowController.UserAddOrEdit == "Add") {
+        if(UserWindowController.UserAddOrEdit ==  "Edit"){
+            tfName.setText(guest.getName());
+            tfPhoneNumber.setText(guest.getPhone_number().toString());
+            tfEmail.setText(guest.getEmail());
+            dpStartDate.setValue(guest.getOccupying_the_room());
+            dpEndDate.setValue(guest.getLeaving_the_room());
+            tfRoomType.setText(guest.getRoom_type());
+            tfPayment.setText(guest.getPayment().toString());
+            saveButton.setOnMouseClicked(mouseEvent -> handleClickUpdate());
+
+        }else{
             btnDelete.setOpacity(0);
             btnDelete.setDisable(true);
+            saveButton.setOnMouseClicked(mouseEvent -> handleClickSave());
         }
     }
 
     @FXML
-    void handleClickDelete(MouseEvent event) {
+    void handleClickDelete() {
         guestRepository.simpleDelete(guest);
     }
 
     @FXML
-    void handleClickSave(MouseEvent event) {
+    void handleClickSave() {
 
         try {
             Guest newGuest = new Guest();
@@ -74,7 +88,7 @@ public class UserAddAndEditWindowController {
             newGuest.setPhone_number(parseInt(tfPhoneNumber.getText().trim()));
             newGuest.setEmail(tfEmail.getText().trim());
             newGuest.setOccupying_the_room(dpStartDate.getValue());
-            newGuest.setLeaving_the_room(dpEndDate.getValue());
+            newGuest.setLeaving_the_room(dpStartDate.getValue());
             newGuest.setRoom_type(tfRoomType.getText().trim());
             newGuest.setPayment(parseInt(tfPayment.getText().trim()));
             newGuest.setReceptionist(employeeRepository.findByColumn("employeeUsername", TransferUtil.user).get(0));
