@@ -18,9 +18,11 @@ import javafx.stage.Modality;
 import javafx.stage.Stage;
 import model.Employee;
 import model.Guest;
+import model.TransferUtil;
 import org.tinylog.Logger;
 
 import java.io.IOException;
+import java.time.LocalDate;
 import java.util.Date;
 
 
@@ -50,10 +52,10 @@ public class UserWindowController {
     private TableColumn<Guest, String> columnEmail;
 
     @FXML
-    private TableColumn<Guest, Date> columnStartDate;
+    private TableColumn<Guest, LocalDate> columnStartDate;
 
     @FXML
-    private TableColumn<Guest, Date> columnEndDate;
+    private TableColumn<Guest, LocalDate> columnEndDate;
 
     @FXML
     private TableColumn<Guest, String> columnRoomType;
@@ -118,6 +120,7 @@ public class UserWindowController {
 
     @FXML
     void handleEdit() {
+        TransferUtil.guest = guestTable.getSelectionModel().getSelectedItem();
         openAddOrEdit("Edit");
     }
 

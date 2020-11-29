@@ -35,15 +35,17 @@ public class AdminWindowController {
     @FXML
     void handleClicks(MouseEvent event) {
         if(event.getSource() == btnEmployees){
+            loadFXML("EmployeeWindow");
             btnGuests.setStyle("-fx-background-color: transparent");
             btnEmployees.setStyle("-fx-background-color: rgba(0, 0, 0, 0.6)");
-            loadFXML("EmployeeWindow");
+
 
         }
         else if(event.getSource() == btnGuests){
+            loadFXML("UserWindow");
             btnEmployees.setStyle("-fx-background-color: transparent");
             btnGuests.setStyle("-fx-background-color: rgba(0, 0, 0, 0.6)");
-            loadFXML("UserWindow");
+
         }
     }
     void loadFXML(String Tab){

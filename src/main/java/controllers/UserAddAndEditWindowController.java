@@ -16,6 +16,8 @@ import model.TransferUtil;
 import org.tinylog.Logger;
 
 import static java.lang.Integer.parseInt;
+import static model.TransferUtil.employee;
+import static model.TransferUtil.guest;
 
 public class UserAddAndEditWindowController {
 
@@ -59,7 +61,7 @@ public class UserAddAndEditWindowController {
 
     @FXML
     void handleClickDelete(MouseEvent event) {
-
+        guestRepository.simpleDelete(guest);
     }
 
     @FXML
