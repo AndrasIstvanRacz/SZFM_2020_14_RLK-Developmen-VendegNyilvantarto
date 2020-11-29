@@ -77,7 +77,44 @@ public class EmployeeAddAndEditWindowController {
         }else{
             btnDelete.setOpacity(0);
             btnDelete.setDisable(true);
+            saveButton.setOnMouseClicked(mouseEvent -> handleClickSave());
         }
+    }
+
+    private void handleClickUpdate() {
+
+        try {
+            Employee newEmployee = new Employee();
+
+            newEmployee.setEmployeeUsername(tfUsername.getText().trim());
+            newEmployee.setName(tfName.getText().trim());
+            newEmployee.setPhone_number(parseInt(tfPhoneNumber.getText().trim()));
+            newEmployee.setEmail(tfEmail.getText().trim());
+            newEmployee.setZip_code(parseInt(tfZipCode.getText().trim()));
+            newEmployee.setCity(tfCity.getText().trim());
+            newEmployee.setStreet(tfStreetName.getText().trim());
+            newEmployee.setHouse_number(tfHouseNumber.getText().trim());
+            Logger.trace("faszkivan ezzel");
+
+            employeeRepository.commitChange(newEmployee);
+
+            Permissions permissions = TransferUtil.employee.getPermissions();
+            Logger.trace("megtaláltam basszameg");
+            permissions.setPermission(parseInt(tfPermission.getText().trim()));
+            Logger.trace("szetteltem a permissömnt");
+            permissionsRepository.commitChange(permissions);
+            Logger.trace("végeztem bammeg");
+
+        } catch (Exception e){
+            Logger.error("Inserting invalid type");
+            Alert alert = new Alert(Alert.AlertType.ERROR);
+            alert.setTitle("Error message");
+            alert.setHeaderText(null);
+            alert.setContentText("Invalid data type or bad database connection.");
+            alert.showAndWait();
+        }
+
+
     }
 
     @FXML
