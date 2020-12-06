@@ -36,7 +36,8 @@ public class GuestRepository extends GenericDb<Guest> {
                 DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
                 LocalDate localDate = LocalDate.parse(entity, formatter);
 
-                cq.select(from).where(cb.equal(from.<Date>get(selectedColumn), localDate));
+                cq.select(from).where(cb.greaterThan(from.get(selectedColumn), localDate));
+
             }else {
                 cq.select(from).where(cb.like(from.get(selectedColumn), "%" + entity + "%"));
             }

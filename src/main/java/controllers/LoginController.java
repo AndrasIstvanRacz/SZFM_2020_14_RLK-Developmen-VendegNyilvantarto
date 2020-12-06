@@ -59,14 +59,6 @@ public class LoginController {
     }
 
     void authentication(){
-
-        if(tfUsername.getText().equals("admin")
-                && pfPassword.getText().equals("admin")){
-            Stage stage  = (Stage) login.getScene().getWindow();
-            stage.close();
-            launchApplication("AdminWindow", "(Admin)");
-        }
-
         Permissions userPermission;
         userPermission = permissionsRepository.findByUsername(tfUsername.getText());
 
