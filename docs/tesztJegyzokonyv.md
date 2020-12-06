@@ -49,6 +49,7 @@ T-046| Hibaüzenet kapása nem megfelelő típusu adatt keresése esetén a vend
 T-047| Hozzáadáas ablak megnyílk a Hozzáadás gombra kattintva az adminisztrátori felületen vendég menüpontjában.|Sikeres|Ladik Balázs
 T-048| Vendég kiválasztása adminisztrátori felületből.|Sikeres|Ladik Balázs
 T-049| Számla kiálítása adtott vendég részére adminisztrátori felületben.|Sikeres|Ladik Balázs
+T-050| Sikeretelen számla kiállításkor hibaüzenetet kapunk adminisztrátori felületen.|Sikeres|Ladik Balázs
 
 
 
