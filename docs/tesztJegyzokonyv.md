@@ -33,7 +33,7 @@ T-030| Dolgozó felületen szoba kivételének dátum szerinti rendezes növekv�
 T-031| Dolgozó felületen szoba kivételének dátum szerinti rendezes csökkenő sorrendbe a vendég táblában.|Sikeres|Rácz András István
 T-032| Dolgozó felületen szoba elhagyésénak dátum szerinti rendezes növekvő sorrendbe a vendég táblában.|Sikeres|Rácz András István
 T-033| Dolgozó felületen szoba elhagyésénak dátum szerinti rendezes csökkenő sorrendbe a vendég táblában.|Sikeres|Rácz András István
-T-034| Dolgozó felületen szoba típusa szerinti rendezes növekvő sorrendbe a vendég táblában.||
+T-034| Dolgozó felületen szoba típusa szerinti rendezes növekvő sorrendbe a vendég táblában.|Sikeres|Rácz András István
 T-035| Dolgozó felületen szoba típusa szerinti rendezes csökkenő sorrendbe a vendég táblában.||
 T-036| Dolgozó felületen fizetendő összeg szerinti rendezes növekvő sorrendbe a vendég táblában.||
 T-037| Dolgozó felületen fizetendő összeg szerinti rendezes csökkenő sorrendbe a vendég táblában.||
