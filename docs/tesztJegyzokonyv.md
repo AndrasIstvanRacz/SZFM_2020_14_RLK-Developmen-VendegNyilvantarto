@@ -44,4 +44,4 @@ T-041| Admin felület inditása sikeres admin bejelentkezés után.|Sikeres|Ladi
 T-042| Dolgozók menüpont elérése adminisztrátori felületből.|Sikeres|Ladik Balázs
 T-043| Vendég menüpont elérése adminisztrátori felületből.|Sikeres|Ladik Balázs
 T-044| Teljes vendég adatbázis lekérdezése adminisztrátori felületből.|Sikeres|Ladik Balázs
-
+T-045| Keresés adott értékre a vendég adatbázisban adminisztrátori felületből.|Sikeres|Ladik Balázs
