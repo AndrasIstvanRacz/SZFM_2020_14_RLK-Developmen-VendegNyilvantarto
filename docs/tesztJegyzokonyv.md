@@ -48,6 +48,7 @@ T-045| Keresés adott értékre a vendég adatbázisban adminisztrátori felüle
 T-046| Hibaüzenet kapása nem megfelelő típusu adatt keresése esetén a vendég adatbázisban adminisztrátori felületen.|Sikeres|Ladik Balázs
 T-047| Hozzáadáas ablak megnyílk a Hozzáadás gombra kattintva az adminisztrátori felületen vendég menüpontjában.|Sikeres|Ladik Balázs
 T-048| Vendég kiválasztása adminisztrátori felületből.|Sikeres|Ladik Balázs
+T-049| Számla kiálítása adtott vendég részére adminisztrátori felületben.|Sikeres|Ladik Balázs
 
 
 
