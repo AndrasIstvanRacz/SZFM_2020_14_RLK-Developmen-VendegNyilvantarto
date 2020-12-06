@@ -17,7 +17,7 @@ T-014| A hozzáadás megtörténik a vendég táblába a mentés gombra kattintv
 T-015| A hozzáadás nem történik meg a vendég tábláb hibás adat esetén.|Sikeres|Rácz András István
 T-016| Hozzáadáskor hibás adat esetén hibaüzenetet kapunk.|Sikeres|Rácz András István
 T-017| Vendég kiválasztása dolgozói felületből.|Sikeres|Rácz András István
-T-018| Számla kiálítása adtott vendég részére dolgozói felületben.||
+T-018| Számla kiálítása adtott vendég részére dolgozói felületben.|Sikeres|Rácz András István
 T-019| Számla nem álítodik ki ha nincs kiválasztva vendég.||
 T-020| Számla nem állítható ki a vendégnek aki még nem hagyta el a szobát.||
 T-021| Sikeretelen számla kiállításkor hibaüzenetet kapunk dolgozói feluleten.||
