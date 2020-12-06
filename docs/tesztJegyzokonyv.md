@@ -73,7 +73,7 @@ T-070| Sikertelen törlés esetén hibüzenet.|Sikeres|Ladik Balázs
 T-071| Szerkesztés abblak megnyitása kiválasztot vendégre.|Sikeres|Ladik Balázs
 T-072| Szerkesztés bezárása az elvetés gombra kattintásal.|Sikeres|Ladik Balázs
 T-073| A szerkesztés megtörténik a vendég táblába a mentés gombra kattintva.|Sikeres|Kosztya Zoltán
-T-074| A szerkesztés nem történik meg a vendég tábláb hibás adat esetén.||
+T-074| A szerkesztés nem történik meg a vendég tábláb hibás adat esetén.|Sikeres|Kosztya Zoltán
 T-075| Szerkesztéskor hibás adat esetén hibaüzenetet kapunk.||
 T-076| Teljes dolgozó adatbázis lekérdezése adminisztrátori felületből.||
 T-077| Keresés adott értékre a dolgozó adatbázisban adminisztrátori felületből.||
