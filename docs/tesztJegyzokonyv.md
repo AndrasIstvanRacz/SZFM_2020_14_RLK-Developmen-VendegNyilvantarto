@@ -83,7 +83,7 @@ T-080| Dolgozó kiválasztása adminisztrátori felületből.|Sikeres|Kosztya Zo
 T-081| Adminisztrátori felületen felhasználónév szerinti rendezes növekvő sorrendbe a dolgozó táblában.|Sikeres|Kosztya Zoltán
 T-082| Adminisztrátori felületen felhasználónév szerinti rendezes csökkenő sorrendbe a dolgozó táblában.|Sikeres|Kosztya Zoltán
 T-083| Adminisztrátori felületen dolgozó neve szerinti rendezes növekvő sorrendbe a dolgozó táblában.|Sikeres|Kosztya Zoltán
-T-084| Adminisztrátori felületen dolgozó neve szerinti rendezes csökkenő sorrendbe a dolgozó táblában.||
+T-084| Adminisztrátori felületen dolgozó neve szerinti rendezes csökkenő sorrendbe a dolgozó táblában.|Sikeres|Kosztya Zoltán
 T-085| Adminisztrátori felületen irányítószám szerinti rendezes növekvő sorrendbe a dolgozó táblában.||
 T-086| Adminisztrátori felületen irányítószám szerinti rendezes csökkenő sorrendbe a dolgozó táblában.||
 T-087| Adminisztrátori felületen város szerinti rendezes növekvő sorrendbe a dolgozó táblában.||
