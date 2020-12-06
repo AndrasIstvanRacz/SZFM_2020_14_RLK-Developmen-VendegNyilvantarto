@@ -37,7 +37,7 @@ T-034| Dolgozó felületen szoba típusa szerinti rendezes növekvő sorrendbe a
 T-035| Dolgozó felületen szoba típusa szerinti rendezes csökkenő sorrendbe a vendég táblában.|Sikeres|Rácz András István
 T-036| Dolgozó felületen fizetendő összeg szerinti rendezes növekvő sorrendbe a vendég táblában.|Sikeres|Ladik Balázs
 T-037| Dolgozó felületen fizetendő összeg szerinti rendezes csökkenő sorrendbe a vendég táblában.|Sikeres|Ladik Balázs
-T-038| Dolgozó felületen dolgozó neve szerinti rendezes növekvő sorrendbe a vendég táblában.||
+T-038| Dolgozó felületen dolgozó neve szerinti rendezes növekvő sorrendbe a vendég táblában.|Sikeres|Ladik Balázs
 T-039| Dolgozó felületen dolgozó neve szerinti rendezes csökkenő sorrendbe a vendég táblában.||
 T-040| Dolgozói felület bezárása.||
 T-041| Admin felület inditása sikeres admin bejelentkezés után.||
