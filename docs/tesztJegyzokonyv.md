@@ -8,7 +8,7 @@ T-005| Sikeres admin belépés a megfelelő felhasználonév, jelszó párral.|S
 T-006| Sikeres dolgozó belépés a megfelelő felhasználonév, jelszó párral.|Sikeres|Rácz András István
 T-007| Dolgozó felület inditása sikeres dolgozó bejelentkezés után.|Sikeres|Rácz András István
 T-008| Teljes vendég adatbázis lekérdezés dolgozói felületből.|Sikeres|Rácz András István
-T-009| Keresés adott értékre a vendég adatbázisban dolgozói felületből.||
+T-009| Keresés adott értékre a vendég adatbázisban dolgozói felületből.|Sikeres|Rácz András István
 T-010| Hibaüzenet kapása nem megfelelő típusu adatt keresése esetén dolgozói felületen.||
 T-011| Hozzáadáas ablak megnyílk a Hozzáadás gombra kattintva dolgozói felületen.||
 T-012| A fő abblak szerkeszthetetlen amig a hozzáadáas ablak él.||
