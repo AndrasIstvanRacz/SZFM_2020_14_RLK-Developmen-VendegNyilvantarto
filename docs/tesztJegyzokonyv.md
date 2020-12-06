@@ -93,7 +93,7 @@ T-090| Adminisztrátori felületen utca szerinti rendezes csökkenő sorrendbe a
 T-091| Adminisztrátori felületen házszám szerinti rendezes növekvő sorrendbe a dolgozó táblában.|Sikeres|Kosztya Zoltán
 T-092| Adminisztrátori felületen házszám szerinti rendezes csökkenő sorrendbe a dolgozó táblában.|Sikeres|Kosztya Zoltán
 T-093| Adminisztrátori felületen telefonszám szerinti rendezes növekvő sorrendbe a dolgozó táblában.|Sikeres|Kosztya Zoltán
-T-094| Adminisztrátori felületen telefonszám szerinti rendezes csökkenő sorrendbe a dolgozó táblában.||
+T-094| Adminisztrátori felületen telefonszám szerinti rendezes csökkenő sorrendbe a dolgozó táblában.|Sikeres|Kosztya Zoltán
 T-095| Adminisztrátori felületen email összeg szerinti rendezes növekvő sorrendbe a dolgozó táblában.||
 T-096| Adminisztrátori felületen email összeg szerinti rendezes csökkenő sorrendbe a dolgozó táblában.||
 T-097| Kiválasztott dolgozó törlése a dolgozó táblából.||
