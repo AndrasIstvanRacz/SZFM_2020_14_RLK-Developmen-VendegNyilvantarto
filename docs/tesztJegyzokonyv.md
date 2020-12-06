@@ -46,7 +46,7 @@ T-043| Vendég menüpont elérése adminisztrátori felületből.|Sikeres|Ladik 
 T-044| Teljes vendég adatbázis lekérdezése adminisztrátori felületből.|Sikeres|Ladik Balázs
 T-045| Keresés adott értékre a vendég adatbázisban adminisztrátori felületből.|Sikeres|Ladik Balázs
 T-046| Hibaüzenet kapása nem megfelelő típusu adatt keresése esetén a vendég adatbázisban adminisztrátori felületen.|Sikeres|Ladik Balázs
-
+T-047| Hozzáadáas ablak megnyílk a Hozzáadás gombra kattintva az adminisztrátori felületen vendég menüpontjában.|Sikeres|Ladik Balázs
 
 
 
