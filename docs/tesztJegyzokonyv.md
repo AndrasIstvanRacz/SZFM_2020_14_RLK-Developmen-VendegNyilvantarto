@@ -51,5 +51,5 @@ T-048| Vendég kiválasztása adminisztrátori felületből.|Sikeres|Ladik Balá
 T-049| Számla kiálítása adtott vendég részére adminisztrátori felületben.|Sikeres|Ladik Balázs
 T-050| Sikeretelen számla kiállításkor hibaüzenetet kapunk adminisztrátori felületen.|Sikeres|Ladik Balázs
 T-051| Adminisztrátori felületen azonosító szerinti rendezes növekvő sorrendbe a vendég táblában.|Sikeres|Ladik Balázs
-
+T-052| Adminisztrátori felületen azonosító szerinti rendezes csökkenő sorrendbe a vendég táblában.|Sikeres|Ladik Balázs
 
