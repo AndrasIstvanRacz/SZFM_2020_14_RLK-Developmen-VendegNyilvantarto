@@ -99,7 +99,7 @@ T-096| Adminisztrátori felületen email összeg szerinti rendezes csökkenő so
 T-097| Kiválasztott dolgozó törlése a dolgozó táblából.|Sikeres|Kosztya Zoltán
 T-098| Szerkesztés abblak megnyitása kiválasztot dolgozóra.|Sikeres|Kosztya Zoltán
 T-099| A szerkesztés megtörténik a dolgozó táblába a mentés gombra kattintva.|Sikeres|Kosztya Zoltán
-T-100| A szerkesztés nem történik meg a dolgozó tábláb hibás adat esetén.||
+T-100| A szerkesztés nem történik meg a dolgozó tábláb hibás adat esetén.|Sikeres|Kosztya Zoltán
 T-101| A főablak szerkeszthetetlen amig a szerkesztés ablak aktív.||
 T-102| A bejelentkezés ablak grafikus felülete szerkeszthetetlen,||
 T-103| A dolgozói felület reszponzív az ablak átméretezésre.||
