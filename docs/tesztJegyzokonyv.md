@@ -24,7 +24,7 @@ T-021| Sikeretelen számla kiállításkor hibaüzenetet kapunk dolgozói felule
 T-022| Dolgozó felületen azonosító szerinti rendezes növekvő sorrendbe a vendég táblában.|Sikeres|Rácz András István
 T-023| Dolgozó felületen azonosító szerinti rendezes csökkenő sorrendbe a vendég táblában.|Sikeres|Rácz András István
 T-024| Dolgozó felületen vendég neve szerinti rendezes növekvő sorrendbe a vendég táblában.|Sikeres|Rácz András István
-T-025| Dolgozó felületen vendég neve szerinti rendezes csökkenő sorrendbe a vendég táblában.||
+T-025| Dolgozó felületen vendég neve szerinti rendezes csökkenő sorrendbe a vendég táblában.|Sikeres|Rácz András István
 T-026| Dolgozó felületen telefonszám szerinti rendezes növekvő sorrendbe a vendég táblában.||
 T-027| Dolgozó felületen telefonszám szerinti rendezes csökkenő sorrendbe a vendég táblában.||
 T-028| Dolgozó felületen email szerinti rendezes növekvő sorrendbe a vendég táblában.||
