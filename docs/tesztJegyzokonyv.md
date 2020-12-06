@@ -77,7 +77,7 @@ T-074| A szerkesztés nem történik meg a vendég tábláb hibás adat esetén.
 T-075| Szerkesztéskor hibás adat esetén hibaüzenetet kapunk.|Sikeres|Kosztya Zoltán
 T-076| Teljes dolgozó adatbázis lekérdezése adminisztrátori felületből.|Sikeres|Kosztya Zoltán
 T-077| Keresés adott értékre a dolgozó adatbázisban adminisztrátori felületből.|Sikeres|Kosztya Zoltán
-T-078| Hibaüzenet kapása nem megfelelő típusu adatt keresése esetén a dolgozó adatbázisban adminisztrátori felületen.||
+T-078| Hibaüzenet kapása nem megfelelő típusu adatt keresése esetén a dolgozó adatbázisban adminisztrátori felületen.|Sikeres|Kosztya Zoltán
 T-079| Hozzáadáas ablak megnyílk a Hozzáadás gombra kattintva az adminisztrátori felületen dolgozó menüpontjában.||
 T-080| Dolgozó kiválasztása adminisztrátori felületből.||
 T-081| Adminisztrátori felületen felhasználónév szerinti rendezes növekvő sorrendbe a dolgozó táblában.||
