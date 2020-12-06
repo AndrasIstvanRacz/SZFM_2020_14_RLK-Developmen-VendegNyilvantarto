@@ -75,7 +75,7 @@ T-072| Szerkesztés bezárása az elvetés gombra kattintásal.|Sikeres|Ladik Ba
 T-073| A szerkesztés megtörténik a vendég táblába a mentés gombra kattintva.|Sikeres|Kosztya Zoltán
 T-074| A szerkesztés nem történik meg a vendég tábláb hibás adat esetén.|Sikeres|Kosztya Zoltán
 T-075| Szerkesztéskor hibás adat esetén hibaüzenetet kapunk.|Sikeres|Kosztya Zoltán
-T-076| Teljes dolgozó adatbázis lekérdezése adminisztrátori felületből.||
+T-076| Teljes dolgozó adatbázis lekérdezése adminisztrátori felületből.|Sikeres|Kosztya Zoltán
 T-077| Keresés adott értékre a dolgozó adatbázisban adminisztrátori felületből.||
 T-078| Hibaüzenet kapása nem megfelelő típusu adatt keresése esetén a dolgozó adatbázisban adminisztrátori felületen.||
 T-079| Hozzáadáas ablak megnyílk a Hozzáadás gombra kattintva az adminisztrátori felületen dolgozó menüpontjában.||
