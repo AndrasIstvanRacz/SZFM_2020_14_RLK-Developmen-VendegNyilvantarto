@@ -27,7 +27,7 @@ T-024| Dolgozó felületen vendég neve szerinti rendezes növekvő sorrendbe a 
 T-025| Dolgozó felületen vendég neve szerinti rendezes csökkenő sorrendbe a vendég táblában.|Sikeres|Rácz András István
 T-026| Dolgozó felületen telefonszám szerinti rendezes növekvő sorrendbe a vendég táblában.|Sikeres|Rácz András István
 T-027| Dolgozó felületen telefonszám szerinti rendezes csökkenő sorrendbe a vendég táblában.|Sikeres|Rácz András István
-T-028| Dolgozó felületen email szerinti rendezes növekvő sorrendbe a vendég táblában.||
+T-028| Dolgozó felületen email szerinti rendezes növekvő sorrendbe a vendég táblában.|Sikeres|Rácz András István
 T-029| Dolgozó felületen email szerinti rendezes csökkenő sorrendbe a vendég táblában.||
 T-030| Dolgozó felületen szoba kivételének dátum szerinti rendezes növekvő sorrendbe a vendég táblában.||
 T-031| Dolgozó felületen szoba kivételének dátum szerinti rendezes csökkenő sorrendbe a vendég táblában.||
