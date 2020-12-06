@@ -10,7 +10,7 @@ T-007| Dolgozó felület inditása sikeres dolgozó bejelentkezés után.|Sikere
 T-008| Teljes vendég adatbázis lekérdezés dolgozói felületből.|Sikeres|Rácz András István
 T-009| Keresés adott értékre a vendég adatbázisban dolgozói felületből.|Sikeres|Rácz András István
 T-010| Hibaüzenet kapása nem megfelelő típusu adatt keresése esetén dolgozói felületen.|Sikeres|Rácz András István
-T-011| Hozzáadáas ablak megnyílk a Hozzáadás gombra kattintva dolgozói felületen.||
+T-011| Hozzáadáas ablak megnyílk a Hozzáadás gombra kattintva dolgozói felületen.|Sikeres|Rácz András István
 T-012| A fő abblak szerkeszthetetlen amig a hozzáadáas ablak él.||
 T-013| A hozzáadás ablak bezárása az elvetés gomb megnyomsakor.||
 T-014| A hozzáadás megtörténik a vendég táblába a mentés gombra kattintva.||
