@@ -5,7 +5,7 @@ T-002| Program bezárása a Kilépés gombal a bejelenkező ablakon.|Sikeres|Rá
 T-003| Hibaüzenet kapása hibás felhasználónév esetén.|Sikeres|Rácz András István
 T-004| Hibaüzenet kapása hibás jelszó esetén.|Sikeres|Rácz András István
 T-005| Sikeres admin belépés a megfelelő felhasználonév, jelszó párral.|Sikeres|Rácz András István
-T-006| Sikeres dolgozó belépés a megfelelő felhasználonév, jelszó párral.||
+T-006| Sikeres dolgozó belépés a megfelelő felhasználonév, jelszó párral.|Sikeres|Rácz András István
 T-007| Dolgozó felület inditása sikeres dolgozó bejelentkezés után.|
 T-008| Teljes vendég adatbázis lekérdezés dolgozói felületből.||
 T-009| Keresés adott értékre a vendég adatbázisban dolgozói felületből.||
