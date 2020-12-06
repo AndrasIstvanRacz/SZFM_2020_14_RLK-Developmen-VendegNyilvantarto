@@ -53,7 +53,7 @@ T-050| Sikeretelen számla kiállításkor hibaüzenetet kapunk adminisztrátori
 T-051| Adminisztrátori felületen azonosító szerinti rendezes növekvő sorrendbe a vendég táblában.|Sikeres|Ladik Balázs
 T-052| Adminisztrátori felületen azonosító szerinti rendezes csökkenő sorrendbe a vendég táblában.|Sikeres|Ladik Balázs
 T-053| Adminisztrátori felületen vendég neve szerinti rendezes növekvő sorrendbe a vendég táblában.|Sikeres|Ladik Balázs
-
+T-054| Adminisztrátori felületen vendég neve szerinti rendezes csökkenő sorrendbe a vendég táblában.|Sikeres|Ladik Balázs
 
 
 
