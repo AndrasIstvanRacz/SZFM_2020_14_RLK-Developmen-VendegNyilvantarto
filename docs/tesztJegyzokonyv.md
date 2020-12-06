@@ -62,7 +62,7 @@ T-059| Adminisztrátori felületen szoba kivételének dátum szerinti rendezes 
 T-060| Adminisztrátori felületen szoba kivételének dátum szerinti rendezes csökkenő sorrendbe a vendég táblában.|Sikeres|Ladik Balázs
 T-061| Adminisztrátori felületen szoba elhagyésénak dátum szerinti rendezes növekvő sorrendbe a vendég táblában.|Sikeres|Ladik Balázs
 T-062| Adminisztrátori felületen szoba elhagyésénak dátum szerinti rendezes csökkenő sorrendbe a vendég táblában.|Sikeres|Ladik Balázs
-
+T-063| Adminisztrátori felületen szoba típusa szerinti rendezes növekvő sorrendbe a vendég táblában.|Sikeres|Ladik Balázs
 
 
 
