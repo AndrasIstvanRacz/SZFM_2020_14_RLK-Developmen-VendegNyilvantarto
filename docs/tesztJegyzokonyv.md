@@ -104,7 +104,7 @@ T-101| A főablak szerkeszthetetlen amig a szerkesztés ablak aktív.|Sikeres|Ko
 T-102| A bejelentkezés ablak grafikus felülete szerkeszthetetlen.|Sikeres|Kosztya Zoltán
 T-103| A dolgozói felület reszponzív az ablak átméretezésre.|Sikeres|Kosztya Zoltán
 T-104| Az adminisztrátori felület menüsávja reszponzív az ablak átméretezésre.|Sikeres|Kosztya Zoltán
-T-105| Az adminisztrátori felület vendég menüpontja reszponzív az ablak átméretezésre.||
+T-105| Az adminisztrátori felület vendég menüpontja reszponzív az ablak átméretezésre.|Sikeres|Kosztya Zoltán
 T-106| Az adminisztrátori felület dolgozó menüpontja reszponzív az ablak átméretezésre.||
 T-107| A szerkesztés/hozzáadáas ablak reszponzív az átméretezésre.||
 
