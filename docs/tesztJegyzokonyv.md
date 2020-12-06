@@ -57,6 +57,10 @@ T-054| Adminisztrátori felületen vendég neve szerinti rendezes csökkenő sor
 T-055| Adminisztrátori felületen telefonszám szerinti rendezes növekvő sorrendbe a vendég táblában.|Sikeres|Ladik Balázs
 T-056| Adminisztrátori felületen telefonszám szerinti rendezes csökkenő sorrendbe a vendég táblában.|Sikeres|Ladik Balázs
 T-057| Adminisztrátori felületen email szerinti rendezes növekvő sorrendbe a vendég táblában.|Sikeres|Ladik Balázs
+T-058| Adminisztrátori felületen email szerinti rendezes csökkenő sorrendbe a vendég táblában.|Sikeres|Ladik Balázs
+
+
+
 
 
 
