@@ -70,7 +70,7 @@ T-067| Adminisztrátori felületen dolgozó neve szerinti rendezes növekvő sor
 T-068| Adminisztrátori felületen dolgozó neve szerinti rendezes csökkenő sorrendbe a vendég táblában.|Sikeres|Ladik Balázs
 T-069| Kiválasztott vendég törlése a vendég táblából.|Sikeres|Ladik Balázs
 T-070| Sikertelen törlés esetén hibüzenet.|Sikeres|Ladik Balázs
-
+T-071| Szerkesztés abblak megnyitása kiválasztot vendégre.|Sikeres|Ladik Balázs
 
 
 
