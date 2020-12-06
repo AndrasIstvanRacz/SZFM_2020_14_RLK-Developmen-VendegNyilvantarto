@@ -42,7 +42,7 @@ T-039| Dolgozó felületen dolgozó neve szerinti rendezes csökkenő sorrendbe 
 T-040| Dolgozói felület bezárása.|Sikeres|Ladik Balázs
 T-041| Admin felület inditása sikeres admin bejelentkezés után.|Sikeres|Ladik Balázs
 T-042| Dolgozók menüpont elérése adminisztrátori felületből.|Sikeres|Ladik Balázs
-T-043| Vendég menüpont elérése adminisztrátori felületből.||
+T-043| Vendég menüpont elérése adminisztrátori felületből.|Sikeres|Ladik Balázs
 T-044| Teljes vendég adatbázis lekérdezése adminisztrátori felületből.||
 T-045| Keresés adott értékre a vendég adatbázisban adminisztrátori felületből.||
 T-046| Hibaüzenet kapása nem megfelelő típusu adatt keresése esetén a vendég adatbázisban adminisztrátori felületen.||
