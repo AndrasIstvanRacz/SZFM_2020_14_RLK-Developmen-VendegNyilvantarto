@@ -3,7 +3,7 @@ Kód|Leírás|Állapot|Tesztelő neve
 T-001| A program elindítása.|Sikeres|Rácz András István
 T-002| Program bezárása a Kilépés gombal a bejelenkező ablakon.|Sikeres|Rácz András István
 T-003| Hibaüzenet kapása hibás felhasználónév esetén.|Sikeres|Rácz András István
-T-004| Hibaüzenet kapása hibás jelszó esetén.||
+T-004| Hibaüzenet kapása hibás jelszó esetén.|Sikeres|Rácz András István
 T-005| Sikeres admin belépés a megfelelő felhasználonév, jelszó párral.||
 T-006| Sikeres dolgozó belépés a megfelelő felhasználonév, jelszó párral.||
 T-007| Dolgozó felület inditása sikeres dolgozó bejelentkezés után.|
