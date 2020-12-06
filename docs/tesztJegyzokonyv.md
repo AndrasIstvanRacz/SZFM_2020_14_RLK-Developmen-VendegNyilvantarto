@@ -69,7 +69,7 @@ T-066| Adminisztrátori felületen fizetendő összeg szerinti rendezes csökken
 T-067| Adminisztrátori felületen dolgozó neve szerinti rendezes növekvő sorrendbe a vendég táblában.|Sikeres|Ladik Balázs
 T-068| Adminisztrátori felületen dolgozó neve szerinti rendezes csökkenő sorrendbe a vendég táblában.|Sikeres|Ladik Balázs
 T-069| Kiválasztott vendég törlése a vendég táblából.|Sikeres|Ladik Balázs
-
+T-070| Sikertelen törlés esetén hibüzenet.|Sikeres|Ladik Balázs
 
 
 
