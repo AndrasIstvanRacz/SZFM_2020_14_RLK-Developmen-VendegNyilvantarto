@@ -82,7 +82,7 @@ T-079| Hozzáadáas ablak megnyílk a Hozzáadás gombra kattintva az adminisztr
 T-080| Dolgozó kiválasztása adminisztrátori felületből.|Sikeres|Kosztya Zoltán
 T-081| Adminisztrátori felületen felhasználónév szerinti rendezes növekvő sorrendbe a dolgozó táblában.|Sikeres|Kosztya Zoltán
 T-082| Adminisztrátori felületen felhasználónév szerinti rendezes csökkenő sorrendbe a dolgozó táblában.|Sikeres|Kosztya Zoltán
-T-083| Adminisztrátori felületen dolgozó neve szerinti rendezes növekvő sorrendbe a dolgozó táblában.||
+T-083| Adminisztrátori felületen dolgozó neve szerinti rendezes növekvő sorrendbe a dolgozó táblában.|Sikeres|Kosztya Zoltán
 T-084| Adminisztrátori felületen dolgozó neve szerinti rendezes csökkenő sorrendbe a dolgozó táblában.||
 T-085| Adminisztrátori felületen irányítószám szerinti rendezes növekvő sorrendbe a dolgozó táblában.||
 T-086| Adminisztrátori felületen irányítószám szerinti rendezes csökkenő sorrendbe a dolgozó táblában.||
