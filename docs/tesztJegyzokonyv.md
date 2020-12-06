@@ -80,7 +80,7 @@ T-077| Keresés adott értékre a dolgozó adatbázisban adminisztrátori felül
 T-078| Hibaüzenet kapása nem megfelelő típusu adatt keresése esetén a dolgozó adatbázisban adminisztrátori felületen.|Sikeres|Kosztya Zoltán
 T-079| Hozzáadáas ablak megnyílk a Hozzáadás gombra kattintva az adminisztrátori felületen dolgozó menüpontjában.|Sikeres|Kosztya Zoltán
 T-080| Dolgozó kiválasztása adminisztrátori felületből.|Sikeres|Kosztya Zoltán
-T-081| Adminisztrátori felületen felhasználónév szerinti rendezes növekvő sorrendbe a dolgozó táblában.||
+T-081| Adminisztrátori felületen felhasználónév szerinti rendezes növekvő sorrendbe a dolgozó táblában.|Sikeres|Kosztya Zoltán
 T-082| Adminisztrátori felületen felhasználónév szerinti rendezes csökkenő sorrendbe a dolgozó táblában.||
 T-083| Adminisztrátori felületen dolgozó neve szerinti rendezes növekvő sorrendbe a dolgozó táblában.||
 T-084| Adminisztrátori felületen dolgozó neve szerinti rendezes csökkenő sorrendbe a dolgozó táblában.||
