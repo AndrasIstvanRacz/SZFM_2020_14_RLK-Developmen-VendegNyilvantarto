@@ -66,7 +66,7 @@ T-063| Adminisztrátori felületen szoba típusa szerinti rendezes növekvő sor
 T-064| Adminisztrátori felületen szoba típusa szerinti rendezes csökkenő sorrendbe a vendég táblában.|Sikeres|Ladik Balázs
 T-065| Adminisztrátori felületen fizetendő összeg szerinti rendezes növekvő sorrendbe a vendég táblában.|Sikeres|Ladik Balázs
 T-066| Adminisztrátori felületen fizetendő összeg szerinti rendezes csökkenő sorrendbe a vendég táblában.|Sikeres|Ladik Balázs
-
+T-067| Adminisztrátori felületen dolgozó neve szerinti rendezes növekvő sorrendbe a vendég táblában.|Sikeres|Ladik Balázs
 
 
 
