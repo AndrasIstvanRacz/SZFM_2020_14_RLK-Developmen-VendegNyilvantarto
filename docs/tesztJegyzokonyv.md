@@ -96,7 +96,7 @@ T-093| Adminisztrátori felületen telefonszám szerinti rendezes növekvő sorr
 T-094| Adminisztrátori felületen telefonszám szerinti rendezes csökkenő sorrendbe a dolgozó táblában.|Sikeres|Kosztya Zoltán
 T-095| Adminisztrátori felületen email összeg szerinti rendezes növekvő sorrendbe a dolgozó táblában.|Sikeres|Kosztya Zoltán
 T-096| Adminisztrátori felületen email összeg szerinti rendezes csökkenő sorrendbe a dolgozó táblában.|Sikeres|Kosztya Zoltán
-T-097| Kiválasztott dolgozó törlése a dolgozó táblából.||
+T-097| Kiválasztott dolgozó törlése a dolgozó táblából.|Sikeres|Kosztya Zoltán
 T-098| Szerkesztés abblak megnyitása kiválasztot dolgozóra.||
 T-099| A szerkesztés megtörténik a dolgozó táblába a mentés gombra kattintva.||
 T-100| A szerkesztés nem történik meg a dolgozó tábláb hibás adat esetén.||
