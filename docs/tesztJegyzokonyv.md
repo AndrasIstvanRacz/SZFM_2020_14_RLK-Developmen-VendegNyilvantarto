@@ -71,6 +71,42 @@ T-068| Adminisztrátori felületen dolgozó neve szerinti rendezes csökkenő so
 T-069| Kiválasztott vendég törlése a vendég táblából.|Sikeres|Ladik Balázs
 T-070| Sikertelen törlés esetén hibüzenet.|Sikeres|Ladik Balázs
 T-071| Szerkesztés abblak megnyitása kiválasztot vendégre.|Sikeres|Ladik Balázs
+T-072| Szerkesztés bezárása az elvetés gombra kattintásal.|Sikeres|Ladik Balázs
+T-073| A szerkesztés megtörténik a vendég táblába a mentés gombra kattintva.||
+T-074| A szerkesztés nem történik meg a vendég tábláb hibás adat esetén.||
+T-075| Szerkesztéskor hibás adat esetén hibaüzenetet kapunk.||
+T-076| Teljes dolgozó adatbázis lekérdezése adminisztrátori felületből.||
+T-077| Keresés adott értékre a dolgozó adatbázisban adminisztrátori felületből.||
+T-078| Hibaüzenet kapása nem megfelelő típusu adatt keresése esetén a dolgozó adatbázisban adminisztrátori felületen.||
+T-079| Hozzáadáas ablak megnyílk a Hozzáadás gombra kattintva az adminisztrátori felületen dolgozó menüpontjában.||
+T-080| Dolgozó kiválasztása adminisztrátori felületből.||
+T-081| Adminisztrátori felületen felhasználónév szerinti rendezes növekvő sorrendbe a dolgozó táblában.||
+T-082| Adminisztrátori felületen felhasználónév szerinti rendezes csökkenő sorrendbe a dolgozó táblában.||
+T-083| Adminisztrátori felületen dolgozó neve szerinti rendezes növekvő sorrendbe a dolgozó táblában.||
+T-084| Adminisztrátori felületen dolgozó neve szerinti rendezes csökkenő sorrendbe a dolgozó táblában.||
+T-085| Adminisztrátori felületen irányítószám szerinti rendezes növekvő sorrendbe a dolgozó táblában.||
+T-086| Adminisztrátori felületen irányítószám szerinti rendezes csökkenő sorrendbe a dolgozó táblában.||
+T-087| Adminisztrátori felületen város szerinti rendezes növekvő sorrendbe a dolgozó táblában.||
+T-088| Adminisztrátori felületen város szerinti rendezes csökkenő sorrendbe a dolgozó táblában.||
+T-089| Adminisztrátori felületen utca szerinti rendezes növekvő sorrendbe a dolgozó táblában.||
+T-090| Adminisztrátori felületen utca szerinti rendezes csökkenő sorrendbe a dolgozó táblában.||
+T-091| Adminisztrátori felületen házszám szerinti rendezes növekvő sorrendbe a dolgozó táblában.||
+T-092| Adminisztrátori felületen házszám szerinti rendezes csökkenő sorrendbe a dolgozó táblában.||
+T-093| Adminisztrátori felületen telefonszám szerinti rendezes növekvő sorrendbe a dolgozó táblában.||
+T-094| Adminisztrátori felületen telefonszám szerinti rendezes csökkenő sorrendbe a dolgozó táblában.||
+T-095| Adminisztrátori felületen email összeg szerinti rendezes növekvő sorrendbe a dolgozó táblában.||
+T-096| Adminisztrátori felületen email összeg szerinti rendezes csökkenő sorrendbe a dolgozó táblában.||
+T-097| Kiválasztott dolgozó törlése a dolgozó táblából.||
+T-098| Szerkesztés abblak megnyitása kiválasztot dolgozóra.||
+T-099| A szerkesztés megtörténik a dolgozó táblába a mentés gombra kattintva.||
+T-100| A szerkesztés nem történik meg a dolgozó tábláb hibás adat esetén.||
+T-101| A főablak szerkeszthetetlen amig a szerkesztés ablak aktív.||
+T-102| A bejelentkezés ablak grafikus felülete szerkeszthetetlen,||
+T-103| A dolgozói felület reszponzív az ablak átméretezésre.||
+T-104| Az adminisztrátori felület menüsávja reszponzív az ablak átméretezésre.||
+T-105| Az adminisztrátori felület vendég menüpontja reszponzív az ablak átméretezésre.||
+T-106| Az adminisztrátori felület dolgozó menüpontja reszponzív az ablak átméretezésre.||
+T-107| A szerkesztés/hozzáadáas ablak reszponzív az átméretezésre.||
 
 
 
