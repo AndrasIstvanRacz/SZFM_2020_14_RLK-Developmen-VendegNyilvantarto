@@ -89,7 +89,7 @@ T-086| Adminisztrátori felületen irányítószám szerinti rendezes csökkenő
 T-087| Adminisztrátori felületen város szerinti rendezes növekvő sorrendbe a dolgozó táblában.|Sikeres|Kosztya Zoltán
 T-088| Adminisztrátori felületen város szerinti rendezes csökkenő sorrendbe a dolgozó táblában.|Sikeres|Kosztya Zoltán
 T-089| Adminisztrátori felületen utca szerinti rendezes növekvő sorrendbe a dolgozó táblában.|Sikeres|Kosztya Zoltán
-T-090| Adminisztrátori felületen utca szerinti rendezes csökkenő sorrendbe a dolgozó táblában.||
+T-090| Adminisztrátori felületen utca szerinti rendezes csökkenő sorrendbe a dolgozó táblában.|Sikeres|Kosztya Zoltán
 T-091| Adminisztrátori felületen házszám szerinti rendezes növekvő sorrendbe a dolgozó táblában.||
 T-092| Adminisztrátori felületen házszám szerinti rendezes csökkenő sorrendbe a dolgozó táblában.||
 T-093| Adminisztrátori felületen telefonszám szerinti rendezes növekvő sorrendbe a dolgozó táblában.||
