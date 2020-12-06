@@ -1,7 +1,7 @@
 Kód|Leírás|Állapot|Tesztelő neve
 ----|-------|-------------|-----------
 T-01| A program elindítása.|Sikeres|Rácz András István
-T-02| Program bezárása a Kilépés gombal a bejelenkező ablakon.||
+T-02| Program bezárása a Kilépés gombal a bejelenkező ablakon.|Sikeres|Rácz András István
 T-03| Hibaüzenet kapása hibás felhasználónév esetén.||
 T-04| Hibaüzenet kapása hibás jelszó esetén.||
 T-05| Sikeres admin belépés a megfelelő felhasználonév, jelszó párral.||
