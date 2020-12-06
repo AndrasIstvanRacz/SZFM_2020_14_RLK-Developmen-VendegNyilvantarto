@@ -5,6 +5,7 @@ import database.EmployeeRepository;
 import database.GuestRepository;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -16,6 +17,7 @@ import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
+import model.BillGeneration;
 import model.Employee;
 import model.Guest;
 import model.TransferUtil;
@@ -69,7 +71,12 @@ public class UserWindowController {
     @FXML
     private TextField tfSearch;
 
+    @FXML
+    private TextField tfCreateBill;
+
     private GuestRepository guestRepository = new GuestRepository();
+
+    private BillGeneration billGeneration = new BillGeneration();
 
     @FXML
     protected void initialize(){
@@ -173,6 +180,11 @@ public class UserWindowController {
             columnName = "payment";
             return columnName;
         }
+    }
+
+    @FXML
+    void handleCreateBill() {
+        billGeneration.pdfGeneration(tfCreateBill.getText().trim(), guestTable.getSelectionModel().getSelectedItem());
     }
 
 }
