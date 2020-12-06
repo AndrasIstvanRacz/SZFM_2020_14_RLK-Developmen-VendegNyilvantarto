@@ -40,7 +40,7 @@ T-037| Dolgozó felületen fizetendő összeg szerinti rendezes csökkenő sorre
 T-038| Dolgozó felületen dolgozó neve szerinti rendezes növekvő sorrendbe a vendég táblában.|Sikeres|Ladik Balázs
 T-039| Dolgozó felületen dolgozó neve szerinti rendezes csökkenő sorrendbe a vendég táblában.|Sikeres|Ladik Balázs
 T-040| Dolgozói felület bezárása.|Sikeres|Ladik Balázs
-T-041| Admin felület inditása sikeres admin bejelentkezés után.||
+T-041| Admin felület inditása sikeres admin bejelentkezés után.|Sikeres|Ladik Balázs
 T-042| Dolgozók menüpont elérése adminisztrátori felületből.||
 T-043| Vendég menüpont elérése adminisztrátori felületből.||
 T-044| Teljes vendég adatbázis lekérdezése adminisztrátori felületből.||
