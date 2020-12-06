@@ -13,7 +13,7 @@ T-010| Hibaüzenet kapása nem megfelelő típusu adatt keresése esetén dolgoz
 T-011| Hozzáadáas ablak megnyílk a Hozzáadás gombra kattintva dolgozói felületen.|Sikeres|Rácz András István
 T-012| A fő abblak szerkeszthetetlen amig a hozzáadáas ablak él.|Sikeres|Rácz András István
 T-013| A hozzáadás ablak bezárása az elvetés gomb megnyomsakor.|Sikeres|Rácz András István
-T-014| A hozzáadás megtörténik a vendég táblába a mentés gombra kattintva.||
+T-014| A hozzáadás megtörténik a vendég táblába a mentés gombra kattintva.|Sikeres|Rácz András István
 T-015| A hozzáadás nem történik meg a vendég tábláb hibás adat esetén.||
 T-016| Hozzáadáskor hibás adat esetén hibaüzenetet kapunk.||
 T-017| Vendég kiválasztása dolgozói felületből.||
