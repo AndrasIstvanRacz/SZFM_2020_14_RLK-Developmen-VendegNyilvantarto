@@ -19,7 +19,7 @@ T-016| Hozzáadáskor hibás adat esetén hibaüzenetet kapunk.|Sikeres|Rácz An
 T-017| Vendég kiválasztása dolgozói felületből.|Sikeres|Rácz András István
 T-018| Számla kiálítása adtott vendég részére dolgozói felületben.|Sikeres|Rácz András István
 T-019| Számla nem álítodik ki ha nincs kiválasztva vendég.|Sikeres|Rácz András István
-T-020| Számla nem állítható ki a vendégnek aki még nem hagyta el a szobát.||
+T-020| Számla nem állítható ki a vendégnek aki még nem hagyta el a szobát.|Sikeres|Rácz András István
 T-021| Sikeretelen számla kiállításkor hibaüzenetet kapunk dolgozói feluleten.||
 T-022| Dolgozó felületen azonosító szerinti rendezes növekvő sorrendbe a vendég táblában.||
 T-023| Dolgozó felületen azonosító szerinti rendezes csökkenő sorrendbe a vendég táblában.||
