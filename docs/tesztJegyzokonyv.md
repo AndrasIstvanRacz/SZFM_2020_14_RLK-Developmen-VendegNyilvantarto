@@ -23,7 +23,7 @@ T-020| Számla nem állítható ki a vendégnek aki még nem hagyta el a szobát
 T-021| Sikeretelen számla kiállításkor hibaüzenetet kapunk dolgozói feluleten.|Sikeres|Rácz András István
 T-022| Dolgozó felületen azonosító szerinti rendezes növekvő sorrendbe a vendég táblában.|Sikeres|Rácz András István
 T-023| Dolgozó felületen azonosító szerinti rendezes csökkenő sorrendbe a vendég táblában.|Sikeres|Rácz András István
-T-024| Dolgozó felületen vendég neve szerinti rendezes növekvő sorrendbe a vendég táblában.||
+T-024| Dolgozó felületen vendég neve szerinti rendezes növekvő sorrendbe a vendég táblában.|Sikeres|Rácz András István
 T-025| Dolgozó felületen vendég neve szerinti rendezes csökkenő sorrendbe a vendég táblában.||
 T-026| Dolgozó felületen telefonszám szerinti rendezes növekvő sorrendbe a vendég táblában.||
 T-027| Dolgozó felületen telefonszám szerinti rendezes csökkenő sorrendbe a vendég táblában.||
