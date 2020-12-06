@@ -101,7 +101,7 @@ T-098| Szerkesztés abblak megnyitása kiválasztot dolgozóra.|Sikeres|Kosztya 
 T-099| A szerkesztés megtörténik a dolgozó táblába a mentés gombra kattintva.|Sikeres|Kosztya Zoltán
 T-100| A szerkesztés nem történik meg a dolgozó tábláb hibás adat esetén.|Sikeres|Kosztya Zoltán
 T-101| A főablak szerkeszthetetlen amig a szerkesztés ablak aktív.|Sikeres|Kosztya Zoltán
-T-102| A bejelentkezés ablak grafikus felülete szerkeszthetetlen,||
+T-102| A bejelentkezés ablak grafikus felülete szerkeszthetetlen.|Sikeres|Kosztya Zoltán
 T-103| A dolgozói felület reszponzív az ablak átméretezésre.||
 T-104| Az adminisztrátori felület menüsávja reszponzív az ablak átméretezésre.||
 T-105| Az adminisztrátori felület vendég menüpontja reszponzív az ablak átméretezésre.||
